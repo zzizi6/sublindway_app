@@ -1,0 +1,527 @@
+@charset "utf-8";
+
+/* 코레일 1호선*/
+/* 코레일 1호선 상행 (출발, 도착)*/
+.T1916_Y_1{left:790px;top:118px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 소요산 */
+.T1915_Y_1{left:802px;top:129px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1914_Y_1{left:830px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1913_Y_1{left:872px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1912_Y_1{left:916px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1911_Y_1{left:956px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1910_Y_1{left:1002px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1909_Y_1{left:1048px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1908_Y_1{left:1087px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1907_Y_1{left:1132px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1906_Y_1{left:1195px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1905_Y_1{left:1251px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1904_Y_1{left:1302px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1903_Y_1{left:1365px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1902_Y_1{left:1433px;top:177px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1901_Y_1{left:1433px;top:249px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1022_Y_1{left:1433px;top:296px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1021_Y_1{left:1433px;top:322px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1020_Y_1{left:1433px;top:341px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1019_Y_1{left:1433px;top:360px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1018_Y_1{left:1433px;top:392px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1017_Y_1{left:1426px;top:450px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1016_Y_1{left:1374px;top:482px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1015_Y_1{left:1321px;top:482px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 회기 */
+.T1002_Y_1{left:864px;top:713px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 남영 */
+.T1003_Y_1{left:864px;top:767px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1004_Y_1{left:845px;top:872px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1005_Y_1{left:781px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1032_Y_1{left:735px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1006_Y_1{left:685px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1007_Y_1{left:628px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1701_Y_1{left:609px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 구로 */
+.T1813_Y_1{left:548px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 구일 */
+.T1801_Y_1{left:497px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1802_Y_1{left:458px;top:892px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1821_Y_1{left:445px;top:935px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1803_Y_1{left:445px;top:967px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1814_Y_1{left:445px;top:991px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1804_Y_1{left:399px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1822_Y_1{left:369px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1805_Y_1{left:339px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1815_Y_1{left:308px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1806_Y_1{left:279px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1807_Y_1{left:260px;top:1025px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1808_Y_1{left:250px;top:1039px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1816_Y_1{left:245px;top:1060px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1809_Y_1{left:245px;top:1086px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1823_Y_1{left:245px;top:1115px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1810_Y_1{left:245px;top:1138px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1817_Y_1{left:245px;top:1160px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1811_Y_1{left:245px;top:1183px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1812_Y_1{left:245px;top:1211px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 인천 */
+
+.T1750_Y_1{left:557px;top:1093px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 광명 */
+.T1749_Y_1{left:915px;top:1321px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 서동탄 */
+
+.T1702_Y_1{left:596px;top:942px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 가산디지털단지 */
+.T1714_Y_1{left:596px;top:989px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1703_Y_1{left:596px;top:1035px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1704_Y_1{left:607px;top:1050px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1705_Y_1{left:637px;top:1057px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1706_Y_1{left:678px;top:1057px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1707_Y_1{left:725px;top:1078px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1708_Y_1{left:747px;top:1141px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1709_Y_1{left:747px;top:1191px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1729_Y_1{left:747px;top:1232px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1710_Y_1{left:747px;top:1271px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1711_Y_1{left:747px;top:1315px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1712_Y_1{left:755px;top:1325px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1713_Y_1{left:779px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1715_Y_1{left:835px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1716_Y_1{left:891px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1717_Y_1{left:940px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1718_Y_1{left:984px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1719_Y_1{left:1028px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1720_Y_1{left:1074px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1721_Y_1{left:1118px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1722_Y_1{left:1163px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1723_Y_1{left:1207px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1724_Y_1{left:1251px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1725_Y_1{left:1295px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1726_Y_1{left:1340px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1727_Y_1{left:1384px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1728_Y_1{left:1428px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1401_Y_1{left:1473px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1402_Y_1{left:1517px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1403_Y_1{left:1561px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1405_Y_1{left:1652px;top:1345px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1407_Y_1{left:1684px;top:1332px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1408_Y_1{left:1689px;top:1306px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 신창 */
+/* 코레일 1호선 상행 (접근)*/
+.T1916_N_1{left:794px;top:118px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /* 소요산 */
+.T1915_N_1{left:814px;top:138px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1914_N_1{left:848px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1913_N_1{left:890px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1912_N_1{left:933px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1911_N_1{left:979px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1910_N_1{left:1021px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1909_N_1{left:1067px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1908_N_1{left:1109px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1907_N_1{left:1163px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1906_N_1{left:1224px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1905_N_1{left:1279px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1904_N_1{left:1331px;top:140px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1903_N_1{left:1407px;top:156px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1902_N_1{left:1432px;top:218px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1901_N_1{left:1432px;top:267px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1022_N_1{left:1432px;top:314px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1021_N_1{left:1432px;top:335px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1020_N_1{left:1432px;top:353px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1019_N_1{left:1432px;top:377px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1018_N_1{left:1432px;top:415px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1017_N_1{left:1410px;top:470px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1016_N_1{left:1346px;top:482px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1015_N_1{left:1296px;top:482px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 회기 */
+
+.T1002_N_1{left:863px;top:735px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 남영 */
+.T1003_N_1{left:863px;top:790px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1004_N_1{left:807px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1005_N_1{left:760px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1032_N_1{left:711px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1006_N_1{left:655px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1007_N_1{left:620px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 신도림 */
+
+.T1701_N_1_T1702{left:596px;top:902px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /**가디 > 구로 */
+.T1701_N_1_T1813{left:570px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /**구일 > 구로 */
+
+.T1703_N_1_T1704{left:596px;top:1055px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png)} /**석수 > 금천구청 */
+.T1703_N_1_T1750{left:578px;top:1075px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png)} /**광명 > 금천구청 */
+.T1716_N_1_T1717{left:918px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /**세마 > 병점 */
+.T1716_N_1_T1749{left:910px;top:1333px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /**서동탄 > 병점 */
+
+.T1702_N_1{left:596px;top:966px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 가산디지털단지 */
+.T1714_N_1{left:596px;top:1010px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+/*.T1703_N_1{left:596px;top:1035px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}*/
+.T1704_N_1{left:621px;top:1056px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1705_N_1{left:657px;top:1057px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1706_N_1{left:703px;top:1063px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1707_N_1{left:738px;top:1099px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1708_N_1{left:745px;top:1168px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1709_N_1{left:745px;top:1213px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1729_N_1{left:745px;top:1251px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1710_N_1{left:745px;top:1292px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1711_N_1{left:745px;top:1329px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1712_N_1{left:764px;top:1336px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1713_N_1{left:807px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1715_N_1{left:863px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+/*.T1716_N_1{left:918px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}*/
+.T1717_N_1{left:962px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1718_N_1{left:1005px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1719_N_1{left:1051px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1720_N_1{left:1095px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1721_N_1{left:1140px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1722_N_1{left:1182px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1723_N_1{left:1228px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1724_N_1{left:1272px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1725_N_1{left:1317px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1726_N_1{left:1363px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1727_N_1{left:1407px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1728_N_1{left:1449px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1401_N_1{left:1494px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1402_N_1{left:1538px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1403_N_1{left:1605px;top:1343px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1405_N_1{left:1670px;top:1340px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1407_N_1{left:1692px;top:1320px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 온양온천 */
+
+.T1813_N_1{left:523px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);} /* 구일 */
+.T1801_N_1{left:476px;top:888px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1802_N_1{left:446px;top:914px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1821_N_1{left:446px;top:954px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1803_N_1{left:446px;top:981px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1814_N_1{left:423px;top:1010px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1804_N_1{left:385px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1822_N_1{left:355px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1805_N_1{left:324px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1815_N_1{left:295px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1806_N_1{left:268px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1807_N_1{left:250px;top:1032px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1808_N_1{left:246px;top:1048px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1816_N_1{left:244px;top:1075px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1809_N_1{left:244px;top:1100px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1823_N_1{left:244px;top:1126px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1810_N_1{left:244px;top:1150px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1817_N_1{left:244px;top:1172px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1811_N_1{left:244px;top:1196px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 동인천 */
+
+/* 코레일 1호선 하행 (춥발, 도착)*/
+.T1916_Y_2{left:767px;top:101px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 소요산 */
+.T1915_Y_2{left:783px;top:164px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1914_Y_2{left:830px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1913_Y_2{left:873px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1912_Y_2{left:916px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1911_Y_2{left:959px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1910_Y_2{left:1002px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1909_Y_2{left:1044px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1908_Y_2{left:1088px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1907_Y_2{left:1132px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1906_Y_2{left:1195px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1905_Y_2{left:1249px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1904_Y_2{left:1302px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1903_Y_2{left:1365px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1902_Y_2{left:1395px;top:205px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1901_Y_2{left:1395px;top:233px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1022_Y_2{left:1395px;top:280px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1021_Y_2{left:1395px;top:304px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1020_Y_2{left:1395px;top:322px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1019_Y_2{left:1395px;top:341px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1018_Y_2{left:1395px;top:375px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1017_Y_2{left:1395px;top:419px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1016_Y_2{left:1370px;top:438px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1015_Y_2{left:1321px;top:441px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /* 회기 */
+
+.T1002_Y_2{left:827px;top:695px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 남영 */
+.T1003_Y_2{left:827px;top:749px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1004_Y_2{left:814px;top:824px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1005_Y_2{left:781px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1032_Y_2{left:736px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1006_Y_2{left:685px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1007_Y_2{left:627px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /* 신도림 */
+
+.T1701_Y_2{left:607px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /** 구로*/
+
+.T1750_Y_2{left:548px;top:1052px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /** 광명 */
+.T1749_Y_2{left:945px;top:1341px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /** 서동탄 */
+
+.T1702_Y_2{left:560px;top:928px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 가산디지털단지 */
+.T1714_Y_2{left:563px;top:972px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1703_Y_2{left:560px;top:1018px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1704_Y_2{left:590px;top:1088px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1705_Y_2{left:636px;top:1102px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1706_Y_2{left:677px;top:1102px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1707_Y_2{left:700px;top:1114px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1708_Y_2{left:712px;top:1134px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1709_Y_2{left:712px;top:1174px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1729_Y_2{left:712px;top:1215px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1710_Y_2{left:712px;top:1255px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1711_Y_2{left:712px;top:1295px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1712_Y_2{left:712px;top:1339px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1713_Y_2{left:779px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1715_Y_2{left:837px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1716_Y_2{left:891px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1717_Y_2{left:940px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1718_Y_2{left:984px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1719_Y_2{left:1030px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1720_Y_2{left:1074px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1721_Y_2{left:1118px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1722_Y_2{left:1163px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1723_Y_2{left:1207px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1724_Y_2{left:1251px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1725_Y_2{left:1296px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1726_Y_2{left:1340px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1727_Y_2{left:1386px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1728_Y_2{left:1429px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1401_Y_2{left:1473px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1402_Y_2{left:1519px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1403_Y_2{left:1561px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1405_Y_2{left:1652px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1407_Y_2{left:1706px;top:1370px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T1408_Y_2{left:1724px;top:1328px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 신창 */
+
+.T1813_Y_2{left:547px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /* 구일 */
+.T1801_Y_2{left:497px;top:842px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1802_Y_2{left:432px;top:858px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1821_Y_2{left:410px;top:916px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1803_Y_2{left:410px;top:949px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1814_Y_2{left:410px;top:964px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1804_Y_2{left:399px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1822_Y_2{left:369px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1805_Y_2{left:339px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1815_Y_2{left:310px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1806_Y_2{left:276px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1807_Y_2{left:238px;top:987px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1808_Y_2{left:216px;top:1011px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1816_Y_2{left:210px;top:1041px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1809_Y_2{left:210px;top:1068px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1823_Y_2{left:210px;top:1097px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1810_Y_2{left:210px;top:1119px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1817_Y_2{left:210px;top:1142px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1811_Y_2{left:210px;top:1165px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1812_Y_2{left:210px;top:1191px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 인천 */
+
+/* 코레일 1호선 하행 (접근)*/
+.T1915_N_2{left:772px;top:127px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 동두천 */
+.T1914_N_2{left:806px;top:176px;background-image: url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1913_N_2{left:846px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1912_N_2{left:891px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1911_N_2{left:933px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1910_N_2{left:977px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1909_N_2{left:1021px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1908_N_2{left:1067px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1907_N_2{left:1109px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1906_N_2{left:1164px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1905_N_2{left:1223px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1904_N_2{left:1279px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1903_N_2{left:1333px;top:181px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1902_N_2{left:1389px;top:190px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1901_N_2{left:1398px;top:207px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1022_N_2{left:1398px;top:252px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1021_N_2{left:1398px;top:296px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1020_N_2{left:1398px;top:313px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1019_N_2{left:1398px;top:330px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1018_N_2{left:1398px;top:355px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1017_N_2{left:1398px;top:399px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1016_N_2{left:1387px;top:430px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1015_N_2{left:1344px;top:441px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /** 회기 접근 */
+
+.T1002_N_2{left:828px;top:663px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 남영 */
+.T1003_N_2{left:828px;top:727px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1004_N_2{left:828px;top:798px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1005_N_2{left:802px;top:840px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1032_N_2{left:758px;top:840px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1006_N_2{left:709px;top:840px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1007_N_2{left:655px;top:840px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1701_N_2{left:618px;top:840px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /* 구로 */
+
+.T1702_N_2_T1701{left:565px;top:879px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /** 구로-가산디지털단지(신창방면) */
+.T1813_N_2_T1701{left:577px;top:841px;background:url(../../public/images/train/train_line1/line1_down_180_default.png);} /** 구로-구일(인천방면) */
+
+.T1750_N_2_T1703{left:555px;top:1045px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png)} /**광명 */
+
+.T1717_N_2_T1716{left:918px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}/* 병점 > 세마 */
+.T1749_N_2_T1716{left:937px;top:1361px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}/* 병점 > 서동탄 */
+
+.T1714_N_2{left:563px;top:947px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 독산 */
+.T1703_N_2{left:563px;top:996px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1704_N_2{left:576px;top:1072px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1705_N_2{left:614px;top:1100px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1706_N_2{left:657px;top:1102px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1707_N_2{left:694px;top:1108px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1708_N_2{left:710px;top:1126px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1709_N_2{left:710px;top:1149px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1729_N_2{left:710px;top:1194px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1710_N_2{left:710px;top:1230px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1711_N_2{left:710px;top:1275px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1712_N_2{left:710px;top:1323px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1713_N_2{left:744px;top:1380px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1715_N_2{left:809px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1716_N_2{left:863px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1717_N_2{left:918px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1718_N_2{left:962px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1719_N_2{left:1009px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1720_N_2{left:1053px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1721_N_2{left:1096px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1722_N_2{left:1142px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1723_N_2{left:1186px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1724_N_2{left:1231px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1725_N_2{left:1275px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1726_N_2{left:1319px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1727_N_2{left:1363px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1728_N_2{left:1408px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1401_N_2{left:1451px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1402_N_2{left:1494px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1403_N_2{left:1540px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1405_N_2{left:1612px;top:1385px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1407_N_2{left:1680px;top:1383px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
+.T1408_N_2{left:1717px;top:1351px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);} /* 신창 */
+
+.T1801_N_2{left:522px;top:841px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);} /* 개봉 */
+.T1802_N_2{left:463px;top:843px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1821_N_2{left:417px;top:880px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1803_N_2{left:414px;top:933px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1814_N_2{left:414px;top:958px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1804_N_2{left:406px;top:971px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1822_N_2{left:383px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1805_N_2{left:353px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1815_N_2{left:324px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1806_N_2{left:294px;top:975px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1807_N_2{left:253px;top:978px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
+.T1808_N_2{left:227px;top:998px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1816_N_2{left:213px;top:1027px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1809_N_2{left:213px;top:1049px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1823_N_2{left:213px;top:1083px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1810_N_2{left:213px;top:1107px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1817_N_2{left:213px;top:1128px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1811_N_2{left:213px;top:1151px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T1812_N_2{left:213px;top:1174px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);} /* 인천 */
+/* 모니터링 할것 :: 구로 -> 구일역 방향으로 [접근] */
+/*.T1813_N_2{position:absolute;top:497px;left:148px;background:url(../../public/images/train/train_nomal_180.png);width:55px;height:55px;}*/
+
+/* 코레일 3호선 상행 (출발, 도착)*/
+.T1958_Y_1{left:145px;top:253px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);} /** 대화 */
+.T1957_Y_1{left:164px;top:268px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);} /** 주엽 */
+.T1956_Y_1{left:208px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);} /** 정발산 */
+.T1955_Y_1{left:258px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);} /** 마두 */
+.T1954_Y_1{left:308px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);} /** 백석 */
+.T1953_Y_1{left:360px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);} /** 대곡 */
+.T1952_Y_1{left:390px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/** 화정 */
+.T1951_Y_1{left:420px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/** 원당 */
+.T1948_Y_1{left:448px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/** 원흥 */
+.T1950_Y_1{left:475px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/** 삼송 */
+
+/* 코레일 3호선 상행 (접근)*/
+.T1958_N_1{left:152px;top:274px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}
+.T1957_N_1{left:187px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1956_N_1{left:234px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1955_N_1{left:285px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1954_N_1{left:336px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1953_N_1{left:376px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1952_N_1{left:406px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1951_N_1{left:434px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1948_N_1{left:462px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+.T1950_N_1{left:492px;top:274px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}
+
+/* 코레일 3호선 하행 (출발, 도착)*/
+.T1958_Y_2{left:120px;top:235px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}
+.T1957_Y_2{left:152px;top:308px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1956_Y_2{left:208px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1955_Y_2{left:259px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1954_Y_2{left:309px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1953_Y_2{left:361px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1952_Y_2{left:390px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1951_Y_2{left:420px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1948_Y_2{left:448px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1950_Y_2{left:476px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+
+/* 코레일 3호선 하행 (접근)*/
+.T1957_N_2{left:130px;top:268px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}
+.T1956_N_2{left:180px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1955_N_2{left:234px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1954_N_2{left:285px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1953_N_2{left:336px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1952_N_2{left:376px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1951_N_2{left:406px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1948_N_2{left:434px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T1950_N_2{left:462px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+.T0309_N_2{left:492px;top:315px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}
+
+/* 코레일 4호선 상행 (출발, 도착)*/
+.T1450_Y_1{left:963px;top:1071px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 선바위 */
+.T1451_Y_1{left:963px;top:1104px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 경마공원 */
+.T1452_Y_1{left:939px;top:1139px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 대공원 */
+.T1453_Y_1{left:897px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 과천 */
+.T1454_Y_1{left:865px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 정부과천청사 */
+.T1455_Y_1{left:832px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 인덕원 */
+.T1456_Y_1{left:799px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 평촌 */
+.T1457_Y_1{left:763px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 범계 */
+.T1458_Y_1{left:728px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 금정 */
+.T1751_Y_1{left:695px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 산본 */
+.T1763_Y_1{left:668px;top:1155px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 수리산 */
+.T1752_Y_1{left:650px;top:1168px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 대야미 */
+.T1753_Y_1{left:643px;top:1193px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 반월 */
+.T1754_Y_1{left:643px;top:1226px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 상록수 */
+.T1755_Y_1{left:643px;top:1259px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 한대앞 */
+.T1756_Y_1{left:643px;top:1289px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 중앙 */
+.T1757_Y_1{left:643px;top:1322px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 고잔 */
+.T1758_Y_1{left:630px;top:1365px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 초지 */
+.T1759_Y_1{left:599px;top:1382px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 안산 */
+.T1760_Y_1{left:558px;top:1382px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 신길온천 */
+.T1761_Y_1{left:527px;top:1359px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 정왕 */
+.T1762_Y_1{left:509px;top:1305px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 오이도 */
+
+/* 코레일 4호선 상행 (접근)*/
+.T0434_N_1{left:963px;top:1056px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 남태령 */
+.T1450_N_1{left:963px;top:1088px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 선바위 */
+.T1451_N_1{left:952px;top:1123px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 경마공원 */
+.T1452_N_1{left:920px;top:1150px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 대공원 */
+.T1453_N_1{left:880px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 과천 */
+.T1454_N_1{left:847px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 정부과천청사 */
+.T1455_N_1{left:814px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 인덕원 */
+.T1456_N_1{left:779px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 평촌 */
+.T1457_N_1{left:745px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 범계 */
+.T1458_N_1{left:712px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 금정 */
+.T1751_N_1{left:680px;top:1153px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 산본 */
+.T1763_N_1{left:658px;top:1161px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 수리산 */
+.T1752_N_1{left:650px;top:1180px;background-image: url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 대야미 */
+.T1753_N_1{left:643px;top:1211px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 반월 */
+.T1754_N_1{left:643px;top:1242px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 상록수 */
+.T1755_N_1{left:643px;top:1275px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 한대앞 */
+.T1756_N_1{left:643px;top:1307px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 중앙 */
+.T1757_N_1{left:643px;top:1344px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 고잔 */
+.T1758_N_1{left:614px;top:1374px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 초지 */
+.T1759_N_1{left:578px;top:1387px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 안산 */
+.T1760_N_1{left:542px;top:1374px;background-image:url(../../public/images/train/train_line4/line4_up_0_default.png);}/* 신길온천 */
+.T1761_N_1{left:516px;top:1326px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 정왕 */
+/*.T1762_N_1{position:absolute;top:716px;left:330px;background:url(../../public/images/train/train_nomal_180.png);width:55px;height:55px;}!* 추가 20201126 *!*/
+
+/* 코레일 4호선 하행 (출발, 도착)*/
+.T1450_Y_2{left:929px;top:1053px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 선바위 */
+.T1451_Y_2{left:929px;top:1083px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 경마공원 */
+.T1452_Y_2{left:921px;top:1102px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 대공원 */
+.T1453_Y_2{left:898px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 과천 */
+.T1454_Y_2{left:865px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 정부과천청사 */
+.T1455_Y_2{left:832px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 인덕원 */
+.T1456_Y_2{left:799px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 평촌 */
+.T1457_Y_2{left:763px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 범계 */
+.T1458_Y_2{left:728px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 금정 */
+.T1751_Y_2{left:695px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 산본 */
+.T1763_Y_2{left:664px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 수리산 */
+.T1752_Y_2{left:627px;top:1135px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 대야미 */
+.T1753_Y_2{left:610px;top:1174px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 반월 */
+.T1754_Y_2{left:610px;top:1208px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 상록수 */
+.T1755_Y_2{left:610px;top:1240px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 한대앞 */
+.T1756_Y_2{left:610px;top:1271px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 중앙 */
+.T1757_Y_2{left:610px;top:1301px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 고잔 */
+.T1758_Y_2{left:607px;top:1324px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 초지 */
+.T1759_Y_2{left:590px;top:1341px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 안산 */
+.T1760_Y_2{left:565px;top:1342px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 신길온천 */
+.T1761_Y_2{left:550px;top:1348px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 정왕 */
+.T1762_Y_2{left:552px;top:1323px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 오이도 */
+
+/* 코레일 4호선 하행 (접근)*/
+.T1450_N_2{left:929px;top:1037px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 선바위 */
+.T1451_N_2{left:929px;top:1063px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 경마공원 */
+.T1452_N_2{left:926px;top:1090px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 대공원 */
+.T1453_N_2{left:910px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 과천 */
+.T1454_N_2{left:881px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 정부과천청사 */
+.T1455_N_2{left:848px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 인덕원 */
+.T1456_N_2{left:814px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 평촌 */
+.T1457_N_2{left:780px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 범계 */
+.T1458_N_2{left:747px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 금정 */
+.T1751_N_2{left:711px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 산본 */
+.T1763_N_2{left:678px;top:1112px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 수리산 */
+.T1752_N_2{left:642px;top:1120px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 대야미 */
+.T1753_N_2{left:618px;top:1146px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 반월 */
+.T1754_N_2{left:610px;top:1189px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 상록수 */
+.T1755_N_2{left:610px;top:1224px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 한대앞 */
+.T1756_N_2{left:610px;top:1256px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 중앙 */
+.T1757_N_2{left:610px;top:1286px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 고잔 */
+.T1758_N_2{left:611px;top:1310px;background-image:url(../../public/images/train/train_line4/line4_down_270_default.png);}/* 초지 */
+.T1759_N_2{left:600px;top:1335px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 안산 */
+.T1760_N_2{left:578px;top:1344px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 신길온천 */
+.T1761_N_2{left:555px;top:1340px;background-image:url(../../public/images/train/train_line4/line4_down_180_default.png);}/* 정왕 */
+.T1762_N_2{left:543px;top:1338px;background-image:url(../../public/images/train/train_line4/line4_up_90_default.png);}/* 오이도 */
