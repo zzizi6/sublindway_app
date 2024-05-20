@@ -7,7 +7,6 @@ const KakaoMap = (props) => {
   const isFirstMessage = useRef(true);
   const { onSetTrainNumber, userId = "Default UserId", userName = "Default UserName", mapRef, markerRef } = props;
 
-
   useEffect(() => {
 
     // 서버에서 이벤트 스트림을 구독. (1) 승차 (2) 하차
