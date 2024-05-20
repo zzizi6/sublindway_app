@@ -68,7 +68,7 @@ function SubwayStatus(props) {
                     setStr(tempStr);
 
                 } else {
-                    console.error("해당 열차가 현재 운행하지 않거나, 열차에 대한 정보가 없습니다.");
+                    console.error(" 열차가 현재 운행하지 않거나, 열차에 대한 정보가 없습니다.");
                 }
 
             } catch (error) {
@@ -630,7 +630,7 @@ const TrainMap = () => {
                     </div>
                     {/* 유저 승차x or 하차했을때 화면 (드래그 적용 x) */}
                     {isStopped && (<div style={{ display: 'flex', justifycontent: 'center', alignitems: 'center', height: '100vh' }}>
-                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
                     </div>)}
                 </div>
             </div>
