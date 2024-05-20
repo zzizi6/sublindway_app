@@ -81,66 +81,60 @@ const KakaoMap = (props) => {
 // 맵, 마커 업데이트
 const updateMarkerPosition = (mapRef, markerRef, newX, newY) => {
 
-  if (window.kakao && window.kakao.maps) {
-
-    const newPosition = new window.kakao.maps.LatLng(newX, newY);
-    if (markerRef.current && mapRef.current) {
-      markerRef.current.setPosition(newPosition);
-      // 교통정보 오버레이 재설정
-      mapRef.current.removeOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
-      mapRef.current.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
-      mapRef.current.setCenter(newPosition);
-    } else {
-      console.error('Marker or Map ref is not initialized');
-    }
+  const newPosition = new window.kakao.maps.LatLng(newX, newY);
+  if (markerRef.current && mapRef.current) {
+    markerRef.current.setPosition(newPosition);
+    // 교통정보 오버레이 재설정
+    mapRef.current.removeOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
+    mapRef.current.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
+    mapRef.current.setCenter(newPosition);
+  } else {
+    console.error('Marker or Map ref is not initialized');
   }
 };
 
 // 맵 초기화
 const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
 
-  if (window.kakao && window.kakao.maps) {
-
-    const container = document.getElementById('map');
-    if (!container) {
-      console.error('Map container not found');
-      return;
-    }
-    const options = {
-      center: new window.kakao.maps.LatLng(newX, newY),
-      level: 3
-    };
-
-    const map = new window.kakao.maps.Map(container, options);
-    map.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
-    mapRef.current = map;
-
-    // 마커 이미지 설정
-    var icon = new window.kakao.maps.MarkerImage(
-      'https://ifh.cc/g/f8DjJl.png',
-      new window.kakao.maps.Size(50, 70),
-      {
-        offset: new window.kakao.maps.Point(50, 70),
-        alt: "마커 이미지 예제",
-        shape: "poly",
-        coords: "1,20,1,9,5,2,10,0,21,0,27,3,30,9,30,20,17,33,14,33"
-      })
-
-    const marker = new window.kakao.maps.Marker({ position: options.center, image: icon });
-    marker.setMap(map);
-    markerRef.current = marker;
-
-    window.kakao.maps.event.addListener(marker, 'click', async () => {
-      const imageUrl = await fetchImageUrl(userId);
-      if (imageUrl) {
-        const content = `<div style="padding:10px;"><img src="${imageUrl}" width="250" height="200" alt="Loaded Image"></div>`;
-        const infowindow = new window.kakao.maps.InfoWindow({ content, removable: true });
-        infowindow.open(map, marker);
-      } else {
-        alert("Failed to load image.");
-      }
-    });
+  const container = document.getElementById('map');
+  if (!container) {
+    console.error('Map container not found');
+    return;
   }
+  const options = {
+    center: new window.kakao.maps.LatLng(newX, newY),
+    level: 3
+  };
+
+  const map = new window.kakao.maps.Map(container, options);
+  map.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
+  mapRef.current = map;
+
+  // 마커 이미지 설정
+  var icon = new window.kakao.maps.MarkerImage(
+    'https://ifh.cc/g/f8DjJl.png',
+    new window.kakao.maps.Size(50, 70),
+    {
+      offset: new window.kakao.maps.Point(50, 70),
+      alt: "마커 이미지 예제",
+      shape: "poly",
+      coords: "1,20,1,9,5,2,10,0,21,0,27,3,30,9,30,20,17,33,14,33"
+    })
+
+  const marker = new window.kakao.maps.Marker({ position: options.center, image: icon });
+  marker.setMap(map);
+  markerRef.current = marker;
+
+  window.kakao.maps.event.addListener(marker, 'click', async () => {
+    const imageUrl = await fetchImageUrl(userId);
+    if (imageUrl) {
+      const content = `<div style="padding:10px;"><img src="${imageUrl}" width="250" height="200" alt="Loaded Image"></div>`;
+      const infowindow = new window.kakao.maps.InfoWindow({ content, removable: true });
+      infowindow.open(map, marker);
+    } else {
+      alert("Failed to load image.");
+    }
+  });
 };
 
 // 이미지 fetch
