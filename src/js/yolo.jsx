@@ -23,7 +23,7 @@ const Yolo = () => {
     try {
       const response = await fetch(apiUrl);
       if (!response.ok) throw new Error('Failed to fetch image');
-      const imageList = await JSON.parse(response);
+      imageList = await JSON.parse(response);
 
       // const imageUrl = await response.text();
 
