@@ -1,26 +1,36 @@
+/* 갤러리 컨테이너 설정 */
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
+  display: flex; /* Flexbox를 사용하여 자식 요소들을 배치합니다 */
+  flex-wrap: wrap; /* 자식 요소들이 줄 바꿈을 할 수 있도록 설정합니다 */
+  justify-content: center; /* 자식 요소들을 수평으로 가운데 정렬합니다 */
+  align-items: center; /* 자식 요소들을 수직으로 가운데 정렬합니다 */
+  padding: 20px; /* 갤러리 컨테이너의 안쪽 여백을 설정합니다 */
+  background-color: #fff; /* 갤러리 컨테이너의 배경색을 흰색으로 설정합니다 */
 }
 
+/* 개별 갤러리 항목 설정 */
 .gallery-item {
-  flex: 1 1 calc(33.333% - 20px);
-  margin: 10px;
-  box-sizing: border-box;
-  overflow: hidden;
+  flex: 1 1 calc(16.666% - 20px); /* 각 항목을 동일한 비율로 배치하고, 여백을 고려한 크기로 설정합니다 */
+  margin: 10px; /* 각 항목 사이에 10px의 간격을 설정합니다 */
+  box-sizing: border-box; /* 요소의 전체 크기를 패딩과 보더를 포함하도록 설정합니다 */
+  overflow: hidden; /* 요소 내에서 넘치는 콘텐츠를 숨깁니다 */
 }
 
+/* 갤러리 항목 내의 이미지 설정 */
 .gallery-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s ease;
+  width: 100%; /* 이미지를 항목의 가로 크기에 맞추어 설정합니다 */
+  height: 50px; /* 이미지의 높이를 1/4로 줄입니다 */
+  object-fit: cover; /* 이미지가 박스를 채우도록 설정합니다 */
+  display: block; /* 이미지를 블록 요소로 설정하여, 주변 요소에 영향을 주지 않도록 합니다 */
+  transition: transform 0.3s ease; /* 이미지가 호버될 때 변환 효과를 부드럽게 적용합니다 */
 }
 
+/* 갤러리 항목이 호버될 때 이미지에 적용될 스타일 */
 .gallery-item:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1); /* 이미지를 1.1배 확대하여 줌인 효과를 줍니다 */
+}
+
+.image-info {
+  margin-top: 10px;
+  text-align: center;
 }
