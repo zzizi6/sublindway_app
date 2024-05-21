@@ -35,6 +35,7 @@ const LocationMap = (props) => {
 
       console.log("로그인 성공");
       console.log("아이디 : " + id + " 이름 : " + userName);
+      
     } else if (user) {
       // 세션 상태 확인
       setKakaoId(user.userId);
@@ -51,6 +52,8 @@ const LocationMap = (props) => {
           <h1 className="menu-title" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>GreenBoogie</h1>
           <h2 className="menu-id" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>{name} 님</h2>
           <button className="menu-button" onClick={() => navigate('/trainMap')} style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>실시간탑승정보</button>
+          <button className="menu-button" onClick={() => navigate('/riding')} style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>승차정보</button>
+          <button className="menu-button" onClick={() => navigate('/yolo')} style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>사진정보</button>
           <button className="menu-button" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }} onClick={Logout}>로그아웃</button>
         </div>
       </div>

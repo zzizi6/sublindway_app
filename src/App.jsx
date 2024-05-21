@@ -3,6 +3,8 @@ import React from 'react';
 import Login from './js/login'; // 로그인 컴포넌트
 import LocationMap from './js/locationMap'; // 위치 컴포넌트
 import TrainMap from './js/trainMap'; // 열차 컴포넌트
+import Yolo from './js/yolo';
+import Riding from './js/riding';
 
 function App() {
   /* 세션 통해 데이터 세팅 */
@@ -37,6 +39,8 @@ function App() {
         <Route path="/login" element={<Login />} /> {/* 기본 경로는 로그인 페이지 */}
         <Route path="/locationMap" element={<LocationMap onSetUserInfo={setUserInfo} onSetTrainNumber={setTrainNumber} />} /> {/* /location 경로는 위치 페이지 */}
         <Route path="/trainMap" element={<TrainMap />} />
+        <Route path="/riding" element={<Riding />}/>
+        <Route path="/yolo" element={<Yolo/>}/>
       </Routes>
     </Router>
   );
