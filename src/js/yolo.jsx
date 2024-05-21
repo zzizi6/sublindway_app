@@ -5,7 +5,6 @@ import '../css/gallery.css';
 
 const user = JSON.parse(sessionStorage.getItem('user'));
 
-
 const Yolo = () => {
   const navigate = useNavigate();
   const [imageList, setImageList] = useState([]);
@@ -40,7 +39,7 @@ const Yolo = () => {
     }
 
     fetchImages(user.userId);
-  }, [user]);
+  }, [user.userId]);
 
   return (
     <div className="container">
@@ -64,4 +63,4 @@ const Yolo = () => {
     </div>
   );
 }
-export default Yolo
+export default Yolo;
