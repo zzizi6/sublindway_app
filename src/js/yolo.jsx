@@ -56,7 +56,8 @@ const Yolo = () => {
       <div className='gallery'>
         {imageList.map((image, index) => (
           <div className='gallery-item' key={index} >
-            <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
+            {image.yoloOrRide==="욜로"&&
+            <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />}
           </div>
         ))}
       </div>
