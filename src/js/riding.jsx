@@ -39,12 +39,6 @@ const Riding = () => {
         </div>
       </div>
 
-
-
-
-
-
-
     </div>
   );
 }
