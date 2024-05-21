@@ -1,32 +1,39 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+
+import '../css/gallery.css';
 
 const user = JSON.parse(sessionStorage.getItem('user'));
 
 
-
 const Riding = () => {
   const navigate = useNavigate();
+  const [imageList, setImageList] = useState('');
 
+  useEffect(() => {
 
+    // 이미지 fetch
+    const fetchImages = async (userId) => {
+      const apiUrl = `http://15.164.219.39:8079/find-image/by-kakaoId?kakaoId=${userId}`;
 
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error('Failed to fetch image');
+        let tmp = await response.json()
+        // await JSON.parse(response);
+        setImageList(tmp);
+        console.log(imageList);
 
+        // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
 
-  // 이미지 fetch
-  // const fetchImageUrl = async (userId) => {
-  //   const apiUrl = `http://15.164.219.39:8079/find-image/by-kakaoId?kakaoId=${userId}`;
+      } catch (error) {
+        console.error('Error fetching image:', error);
+        return null;
+      }
+    }
 
-  //   try {
-  //     const response = await fetch(apiUrl);
-  //     if (!response.ok) throw new Error('Failed to fetch image');
-  //     const imageUrl = await response.text();
-  //     return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
-
-  //   } catch (error) {
-  //     console.error('Error fetching image:', error);
-  //     return null;
-  //   }
-  // };
+    fetchImages(user.userId);
+  }, []);
 
   return (
     <div className="container">
@@ -39,8 +46,14 @@ const Riding = () => {
         </div>
       </div>
 
+      <div className='gallery'>
+        {imageList.map((image, index) => (
+          <div className='gallery-item' key={index} >
+            <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
-
 export default Riding;

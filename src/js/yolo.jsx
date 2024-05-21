@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import '../css/gallery.css';
@@ -8,32 +8,32 @@ const user = JSON.parse(sessionStorage.getItem('user'));
 
 const Yolo = () => {
   const navigate = useNavigate();
-  let imageList = [];
+  const [imageList, setImageList] = useState('');
 
   useEffect(() => {
 
-    fetchImageUrl(user.userId);
+    // 이미지 fetch
+    const fetchImages = async (userId) => {
+      const apiUrl = `http://15.164.219.39:8079/find-image/by-kakaoId?kakaoId=${userId}`;
 
-  }, []);
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error('Failed to fetch image');
+        let tmp = await response.json()
+        // await JSON.parse(response);
+        setImageList(tmp);
+        console.log(imageList);
 
-  // 이미지 fetch
-  const fetchImageUrl = async (userId) => {
-    const apiUrl = `http://15.164.219.39:8079/find-image/by-kakaoId?kakaoId=${userId}`;
+        // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
 
-    try {
-      const response = await fetch(apiUrl);
-      if (!response.ok) throw new Error('Failed to fetch image');
-      imageList = await JSON.parse(response);
-
-      // const imageUrl = await response.text();
-
-      // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
-
-    } catch (error) {
-      console.error('Error fetching image:', error);
-      return null;
+      } catch (error) {
+        console.error('Error fetching image:', error);
+        return null;
+      }
     }
-  };
+
+    fetchImages(user.userId);
+  }, []);
 
   return (
     <div className="container">
@@ -47,9 +47,9 @@ const Yolo = () => {
       </div>
 
       <div className='gallery'>
-        {imageList.map((src, index) => (
+        {imageList.map((image, index) => (
           <div className='gallery-item' key={index} >
-            <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${src.imageUUID}`} alt={`Gallery image ${index + 1}`} />
+            <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
           </div>
         ))}
       </div>
