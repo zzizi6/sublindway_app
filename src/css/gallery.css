@@ -10,6 +10,9 @@
 
 /* 개별 갤러리 항목 설정 */
 .gallery-item {
+  display: flex; /* Flexbox를 사용하여 자식 요소들을 배치합니다 */
+  flex-direction: column; /* 자식 요소들을 세로로 정렬합니다 */
+  align-items: flex-end; /* 자식 요소들을 수직으로 오른쪽 정렬합니다 */
   flex: 1 1 calc(16.666% - 20px); /* 각 항목을 동일한 비율로 배치하고, 여백을 고려한 크기로 설정합니다 */
   margin: 10px; /* 각 항목 사이에 10px의 간격을 설정합니다 */
   box-sizing: border-box; /* 요소의 전체 크기를 패딩과 보더를 포함하도록 설정합니다 */
@@ -32,5 +35,5 @@
 
 .image-info {
   margin-top: 10px;
-  text-align: center;
+  text-align: right; /* 텍스트를 오른쪽 정렬합니다 */
 }
