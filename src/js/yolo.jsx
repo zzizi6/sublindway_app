@@ -8,7 +8,7 @@ const user = JSON.parse(sessionStorage.getItem('user'));
 
 const Yolo = () => {
   const navigate = useNavigate();
-  const [imageList, setImageList] = useState('');
+  const [imageList, setImageList] = useState([]);
 
   useEffect(() => {
 
@@ -24,6 +24,13 @@ const Yolo = () => {
         setImageList(tmp);
         console.log(imageList);
 
+        // 데이터가 배열인지 확인
+        if (Array.isArray(tmp)) {
+          setImageList(tmp);
+        } else {
+          console.error('Fetched data is not an array:', tmp);
+        }
+
         // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
 
       } catch (error) {
@@ -33,7 +40,7 @@ const Yolo = () => {
     }
 
     fetchImages(user.userId);
-  }, []);
+  }, [user]);
 
   return (
     <div className="container">

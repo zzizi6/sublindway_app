@@ -5,10 +5,9 @@ import '../css/gallery.css';
 
 const user = JSON.parse(sessionStorage.getItem('user'));
 
-
 const Riding = () => {
   const navigate = useNavigate();
-  const [imageList, setImageList] = useState('');
+  const [imageList, setImageList] = useState([]);
 
   useEffect(() => {
 
@@ -24,6 +23,13 @@ const Riding = () => {
         setImageList(tmp);
         console.log(imageList);
 
+        // 데이터가 배열인지 확인
+        if (Array.isArray(tmp)) {
+          setImageList(tmp);
+        } else {
+          console.error('Fetched data is not an array:', tmp);
+        }
+
         // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
 
       } catch (error) {
@@ -33,7 +39,7 @@ const Riding = () => {
     }
 
     fetchImages(user.userId);
-  }, []);
+  }, [user.userId]);
 
   return (
     <div className="container">
