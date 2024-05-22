@@ -54,29 +54,16 @@ const Riding = () => {
 
       <div className='gallery'>
 
-        {/* {imageList.map((image, index) => (
-          <div className='gallery-item' key={index} >
+        {imageList.map((image, index) => (
+          <div className='gallery' key={index} >
             {image.yoloOrRide === "탑승" &&
-              <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />}
+              <figure>
+                <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
+                <figcaption>{index}</figcaption>
+              </figure>}
           </div>
-        ))} */}
-
-
+        ))}
       </div>
-
-      <table>
-        <tr>
-          <th>승차정보</th>
-        </tr>
-
-        {imageList.map((image, index) => {
-          <tr>
-            <td>  {image.yoloOrRide === "탑승" &&
-              <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />}</td>
-          </tr>
-        })}
-
-      </table>
     </div>
   );
 }
