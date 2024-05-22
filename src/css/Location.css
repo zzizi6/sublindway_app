@@ -44,14 +44,14 @@
 
 
 .menu-title {
-  color: #008f1a; /* 글자 색상 */
+  color: #ffffff; /* 글자 색상 */
   margin-top: 35px;
   margin-bottom: 20px; /* 제목 아래 마진 */
   font-size: 40px; 
 }
 
 .menu-id {
-  color: #45a049;
+  color: #ffffff;
   align-self: flex-end;
   margin-bottom:50px;
   margin-right: 10px;
