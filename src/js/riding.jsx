@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import '../css/subScreen.css';
 import '../css/gallery.css';
 
 const user = JSON.parse(sessionStorage.getItem('user'));
@@ -52,17 +53,18 @@ const Riding = () => {
         </div>
       </div>
 
-      <div className='gallery'>
-
-        {imageList.map((image, index) => (
-          <div className='gallery' key={index} >
-            {image.yoloOrRide === "탑승" &&
-              <figure>
-                <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
-                <figcaption>{index}</figcaption>
-              </figure>}
-          </div>
-        ))}
+      <div className='gallery-container'>
+        <div className='gallery'>
+          {imageList.map((image, index) => (
+            <div className='gallery' key={index} >
+              {image.yoloOrRide === "탑승" &&
+                <figure>
+                  <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
+                  <figcaption>{index}</figcaption>
+                </figure>}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
