@@ -60,7 +60,7 @@ const Yolo = () => {
               {image.yoloOrRide === "욜로" &&
                 <figure>
                   <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
-                  <figcaption>{image.LocalDateTime}</figcaption>
+                  <figcaption>{image.localDateTime}</figcaption>
                 </figure>}
             </div>
           ))}
