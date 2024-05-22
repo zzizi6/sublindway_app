@@ -79,7 +79,7 @@
 
 /* 갤러리 화면 */
 .gallery-container {
-    flex: 1;
+    /*flex: 1;*/
     /* 남은 공간을 모두 차지 */
     height: 100vh;
     /* 전체 뷰포트 높이 */
