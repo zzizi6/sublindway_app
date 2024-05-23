@@ -58,7 +58,7 @@ const Riding = () => {
             <div className='gallery' key={index} >
               {image.yoloOrRide === "탑승" &&
                 <figure>
-                  <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
+                  <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`이미지 : ${image.imageUUID}`} />
                   <figcaption>{image.localDateTime}</figcaption>
                 </figure>}
             </div>
