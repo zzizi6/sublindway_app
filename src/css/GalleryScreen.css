@@ -67,27 +67,28 @@
     flex: 1;
     height: 100vh;
     margin-left: 250px;
-    overflow-y: auto;
+    overflow-x: auto; /* 수평 스크롤 활성화 */
+    white-space: nowrap; /* 자식 요소가 한 줄로 표시되도록 설정 */
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: nowrap; /* 줄 바꿈을 하지 않도록 설정 */
     gap: 10px;
-    padding: 20px;
+}
+
+.gallery figure {
+    display: inline-block; /* 자식 요소를 인라인 블록으로 설정하여 한 줄로 표시 */
+    margin: 0;
 }
 
 .gallery img {
-    width: 100%;
+    width: 250px;
     height: auto;
     max-height: 200px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.gallery figure {
-    margin: 0;
 }
 
 .gallery figcaption {
