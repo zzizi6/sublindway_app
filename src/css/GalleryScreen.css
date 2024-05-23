@@ -84,9 +84,8 @@
 
 .gallery img {
     width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: cover;
+    height: 250px; /* 정사각형으로 만들기 위해 높이를 너비와 동일하게 설정 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 정사각형 영역에 맞도록 자름 */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
