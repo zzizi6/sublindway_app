@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import '../css/GalleryScreen.css';
-//import '../css/gallery.css';
 
 const user = JSON.parse(sessionStorage.getItem('user'));
 
