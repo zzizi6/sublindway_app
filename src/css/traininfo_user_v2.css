@@ -451,52 +451,52 @@
 .t_way8_2828_v2{left:1621px;top:1139px;}/* 남위례 */
 
 /* 1호선 상행 (출발, 도착)*/
-.T0158_Y_1_v2{left:1249px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0157_Y_1_v2{left:1193px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0156_Y_1_v2{left:1161px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0159_Y_1_v2{left:1119px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0155_Y_1_v2{left:1076px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0154_Y_1_v2{left:986px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0153_Y_1_v2{left:893px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0152_Y_1_v2{left:845px;top:529px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0151_Y_1_v2{left:825px;top:567px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
-.T0150_Y_1_v2{left:825px;top:633px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T0158_Y_1_v2{left:1249px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0157_Y_1_v2{left:1193px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0156_Y_1_v2{left:1161px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0159_Y_1_v2{left:1119px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0155_Y_1_v2{left:1076px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0154_Y_1_v2{left:986px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0153_Y_1_v2{left:893px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0152_Y_1_v2{left:845px;top:529px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0151_Y_1_v2{left:825px;top:567px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0150_Y_1_v2{left:825px;top:633px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
 
 /* 1호선 상행 (이동, 접근)*/
-.T0158_N_1_v2{left:1221px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0157_N_1_v2{left:1177px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0156_N_1_v2{left:1140px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0159_N_1_v2{left:1098px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0155_N_1_v2{left:1032px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0154_N_1_v2{left:940px;top:496px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0153_N_1_v2{left:867px;top:510px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0152_N_1_v2{left:829px;top:543px;background-image:url(../../public/images/train/train_line1/line1_up_0_default.png);}
-.T0151_N_1_v2{left:825px;top:600px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
-.T0150_N_1_v2{left:825px;top:661px;background-image:url(../../public/images/train/train_line1/line1_up_90_default.png);}
+.T0158_N_1_v2{left:1221px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0157_N_1_v2{left:1177px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0156_N_1_v2{left:1140px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0159_N_1_v2{left:1098px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0155_N_1_v2{left:1032px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0154_N_1_v2{left:940px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0153_N_1_v2{left:867px;top:510px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0152_N_1_v2{left:829px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0151_N_1_v2{left:825px;top:600px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0150_N_1_v2{left:825px;top:661px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
 
 /* 1호선 하행 (출발, 도착)*/
-.T0158_Y_2_v2{left:1249px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0157_Y_2_v2{left:1193px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0156_Y_2_v2{left:1161px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0159_Y_2_v2{left:1119px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0155_Y_2_v2{left:1076px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0154_Y_2_v2{left:986px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0153_Y_2_v2{left:893px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0152_Y_2_v2{left:831px;top:496px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0151_Y_2_v2{left:802px;top:551px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
-.T0150_Y_2_v2{left:802px;top:617px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T0158_Y_2_v2{left:1249px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0157_Y_2_v2{left:1193px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0156_Y_2_v2{left:1161px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0159_Y_2_v2{left:1119px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0155_Y_2_v2{left:1076px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0154_Y_2_v2{left:986px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0153_Y_2_v2{left:893px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0152_Y_2_v2{left:831px;top:496px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0151_Y_2_v2{left:802px;top:551px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0150_Y_2_v2{left:802px;top:617px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
 
 /* 1호선 하행 (이동, 접근)*/
-.T0158_N_2_v2{left:1259px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0157_N_2_v2{left:1221px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0156_N_2_v2{left:1177px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0159_N_2_v2{left:1140px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0155_N_2_v2{left:1098px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0154_N_2_v2{left:1032px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0153_N_2_v2{left:940px;top:458px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0152_N_2_v2{left:854px;top:476px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0151_N_2_v2{left:810px;top:515px;background-image:url(../../public/images/train/train_line1/line1_down_180_default.png);}
-.T0150_N_2_v2{left:802px;top:583px;background-image:url(../../public/images/train/train_line1/line1_down_270_default.png);}
+.T0158_N_2_v2{left:1259px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0157_N_2_v2{left:1221px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0156_N_2_v2{left:1177px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0159_N_2_v2{left:1140px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0155_N_2_v2{left:1098px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0154_N_2_v2{left:1032px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0153_N_2_v2{left:940px;top:458px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0152_N_2_v2{left:854px;top:476px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0151_N_2_v2{left:810px;top:515px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
+.T0150_N_2_v2{left:802px;top:583px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}
 
 /* 2호선 순환내선 (출발, 도착) */
 .T0201_Y_1_v2{left:813px;top:580px;background-image:url(../../public/images/train/train_line2/line2_up_0_default.png);}
@@ -731,147 +731,147 @@
 .T0249_N_6_v2{left:374px;top:745px;background-image:url(../../public/images/train/train_line2/line2_up_0_default.png);}
 
 /* 3호선 상행선(출발,도착) */
-.T0309_Y_1_v2{left:481px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 지축 */
-.T0310_Y_1_v2{left:515px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 구파발 */
-.T0311_Y_1_v2{left:543px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 연신내 */
-.T0312_Y_1_v2{left:623px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 불광 */
-.T0313_Y_1_v2{left:669px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 녹번 */
-.T0314_Y_1_v2{left:710px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 홍제 */
-.T0315_Y_1_v2{left:751px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 무악재 */
-.T0316_Y_1_v2{left:805px;top:354px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 독립문 */
-.T0317_Y_1_v2{left:833px;top:385px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 경복궁 */
-.T0318_Y_1_v2{left:861px;top:417px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 안국 */
-.T0319_Y_1_v2{left:904px;top:485px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 종로3가 */
-.T0320_Y_1_v2{left:904px;top:568px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 을지로3가 */
-.T0321_Y_1_v2{left:961px;top:612px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 충무로 */
-.T0322_Y_1_v2{left:1014px;top:661px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 동대입구 */
-.T0323_Y_1_v2{left:1059px;top:704px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 약수 */
-.T0324_Y_1_v2{left:1081px;top:761px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 금호 */
-.T0325_Y_1_v2{left:1081px;top:794px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 옥수 */
-.T0326_Y_1_v2{left:1081px;top:853px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 압구정 */
-.T0327_Y_1_v2{left:1081px;top:879px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 신사 */
-.T0328_Y_1_v2{left:1081px;top:905px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 잠원 */
-.T0329_Y_1_v2{left:1081px;top:934px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 고속터미널 */
-.T0330_Y_1_v2{left:1081px;top:967px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 교대 */
-.T0331_Y_1_v2{left:1103px;top:988px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 남부터미널 */
-.T0332_Y_1_v2{left:1137px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 양재 */
-.T0333_Y_1_v2{left:1197px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 매봉 */
-.T0334_Y_1_v2{left:1263px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 도곡 */
-.T0335_Y_1_v2{left:1320px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 대치 */
-.T0336_Y_1_v2{left:1373px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 학여울 */
-.T0337_Y_1_v2{left:1441px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 대청 */
-.T0338_Y_1_v2{left:1514px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 일원 */
-.T0339_Y_1_v2{left:1594px;top:1061px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 수서 */
-.T0340_Y_1_v2{left:1654px;top:1001px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 가락시장 */
-.T0341_Y_1_v2{left:1693px;top:970px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 경찰병원 */
-.T0342_Y_1_v2{left:1751px;top:933px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 오금 */
+.T0309_Y_1_v2{left:481px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 지축 */
+.T0310_Y_1_v2{left:515px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 구파발 */
+.T0311_Y_1_v2{left:543px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 연신내 */
+.T0312_Y_1_v2{left:623px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 불광 */
+.T0313_Y_1_v2{left:669px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 녹번 */
+.T0314_Y_1_v2{left:710px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 홍제 */
+.T0315_Y_1_v2{left:751px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 무악재 */
+.T0316_Y_1_v2{left:805px;top:354px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 독립문 */
+.T0317_Y_1_v2{left:833px;top:385px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경복궁 */
+.T0318_Y_1_v2{left:861px;top:417px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 안국 */
+.T0319_Y_1_v2{left:904px;top:485px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T0320_Y_1_v2{left:904px;top:568px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로3가 */
+.T0321_Y_1_v2{left:961px;top:612px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충무로 */
+.T0322_Y_1_v2{left:1014px;top:661px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대입구 */
+.T0323_Y_1_v2{left:1059px;top:704px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 약수 */
+.T0324_Y_1_v2{left:1081px;top:761px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 금호 */
+.T0325_Y_1_v2{left:1081px;top:794px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 옥수 */
+.T0326_Y_1_v2{left:1081px;top:853px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 압구정 */
+.T0327_Y_1_v2{left:1081px;top:879px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신사 */
+.T0328_Y_1_v2{left:1081px;top:905px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 잠원 */
+.T0329_Y_1_v2{left:1081px;top:934px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고속터미널 */
+.T0330_Y_1_v2{left:1081px;top:967px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 교대 */
+.T0331_Y_1_v2{left:1103px;top:988px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 남부터미널 */
+.T0332_Y_1_v2{left:1137px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양재 */
+.T0333_Y_1_v2{left:1197px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 매봉 */
+.T0334_Y_1_v2{left:1263px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 도곡 */
+.T0335_Y_1_v2{left:1320px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대치 */
+.T0336_Y_1_v2{left:1373px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 학여울 */
+.T0337_Y_1_v2{left:1441px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대청 */
+.T0338_Y_1_v2{left:1514px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 일원 */
+.T0339_Y_1_v2{left:1594px;top:1061px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 수서 */
+.T0340_Y_1_v2{left:1654px;top:1001px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 가락시장 */
+.T0341_Y_1_v2{left:1693px;top:970px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경찰병원 */
+.T0342_Y_1_v2{left:1751px;top:933px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
 
 /* 3호선 상행선(이동,접근) */
-.T0309_N_1_v2{left:498px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 지축 */
-.T0310_N_1_v2{left:529px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 구파발 */
-.T0311_N_1_v2{left:583px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 연신내 */
-.T0312_N_1_v2{left:646px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 불광 */
-.T0313_N_1_v2{left:690px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 녹번 */
-.T0314_N_1_v2{left:731px;top:328px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 홍제 */
-.T0315_N_1_v2{left:785px;top:333px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 무악재 */
-.T0316_N_1_v2{left:820px;top:370px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 독립문 */
-.T0317_N_1_v2{left:848px;top:402px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 경복궁 */
-.T0318_N_1_v2{left:881px;top:440px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 안국 */
-.T0319_N_1_v2{left:904px;top:525px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 종로3가 */
-.T0320_N_1_v2{left:933px;top:585px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 을지로3가 */
-.T0321_N_1_v2{left:988px;top:637px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 충무로 */
-.T0322_N_1_v2{left:1035px;top:681px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 동대입구 */
-.T0323_N_1_v2{left:1076px;top:721px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 약수 */
-.T0324_N_1_v2{left:1081px;top:777px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 금호 */
-.T0325_N_1_v2{left:1081px;top:824px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 옥수 */
-.T0326_N_1_v2{left:1081px;top:866px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 압구정 */
-.T0327_N_1_v2{left:1081px;top:892px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 신사 */
-.T0328_N_1_v2{left:1081px;top:919px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 잠원 */
-.T0329_N_1_v2{left:1081px;top:957px;background-image:url(../../public/images/train/train_line3/line3_up_90_default.png);}/* 고속터미널 */
-.T0330_N_1_v2{left:1092px;top:977px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 교대 */
-.T0331_N_1_v2{left:1118px;top:1002px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 남부터미널 */
-.T0332_N_1_v2{left:1167px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 양재 */
-.T0333_N_1_v2{left:1230px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 매봉 */
-.T0334_N_1_v2{left:1291px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 도곡 */
-.T0335_N_1_v2{left:1347px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 대치 */
-.T0336_N_1_v2{left:1407px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 학여울 */
-.T0337_N_1_v2{left:1477px;top:1012px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 대청 */
-.T0338_N_1_v2{left:1568px;top:1035px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 일원 */
-.T0339_N_1_v2{left:1623px;top:1031px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 수서 */
-.T0340_N_1_v2{left:1674px;top:984px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 가락시장 */
-.T0341_N_1_v2{left:1718px;top:950px;background-image:url(../../public/images/train/train_line3/line3_down_180_default.png);}/* 경찰병원 */
+.T0309_N_1_v2{left:498px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 지축 */
+.T0310_N_1_v2{left:529px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 구파발 */
+.T0311_N_1_v2{left:583px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 연신내 */
+.T0312_N_1_v2{left:646px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 불광 */
+.T0313_N_1_v2{left:690px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 녹번 */
+.T0314_N_1_v2{left:731px;top:328px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 홍제 */
+.T0315_N_1_v2{left:785px;top:333px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 무악재 */
+.T0316_N_1_v2{left:820px;top:370px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 독립문 */
+.T0317_N_1_v2{left:848px;top:402px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경복궁 */
+.T0318_N_1_v2{left:881px;top:440px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 안국 */
+.T0319_N_1_v2{left:904px;top:525px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T0320_N_1_v2{left:933px;top:585px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로3가 */
+.T0321_N_1_v2{left:988px;top:637px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충무로 */
+.T0322_N_1_v2{left:1035px;top:681px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대입구 */
+.T0323_N_1_v2{left:1076px;top:721px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 약수 */
+.T0324_N_1_v2{left:1081px;top:777px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 금호 */
+.T0325_N_1_v2{left:1081px;top:824px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 옥수 */
+.T0326_N_1_v2{left:1081px;top:866px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 압구정 */
+.T0327_N_1_v2{left:1081px;top:892px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신사 */
+.T0328_N_1_v2{left:1081px;top:919px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 잠원 */
+.T0329_N_1_v2{left:1081px;top:957px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고속터미널 */
+.T0330_N_1_v2{left:1092px;top:977px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 교대 */
+.T0331_N_1_v2{left:1118px;top:1002px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 남부터미널 */
+.T0332_N_1_v2{left:1167px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양재 */
+.T0333_N_1_v2{left:1230px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 매봉 */
+.T0334_N_1_v2{left:1291px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 도곡 */
+.T0335_N_1_v2{left:1347px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대치 */
+.T0336_N_1_v2{left:1407px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 학여울 */
+.T0337_N_1_v2{left:1477px;top:1012px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대청 */
+.T0338_N_1_v2{left:1568px;top:1035px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 일원 */
+.T0339_N_1_v2{left:1623px;top:1031px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 수서 */
+.T0340_N_1_v2{left:1674px;top:984px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 가락시장 */
+.T0341_N_1_v2{left:1718px;top:950px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경찰병원 */
 
 /* 3호선 하행선(출발, 도착) */
-.T0309_Y_2_v2{left:481px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 지축 */
-.T0310_Y_2_v2{left:515px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 구파발 */
-.T0311_Y_2_v2{left:544px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 연신내 */
-.T0312_Y_2_v2{left:624px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 불광 */
-.T0313_Y_2_v2{left:671px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 녹번 */
-.T0314_Y_2_v2{left:711px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 홍제 */
-.T0315_Y_2_v2{left:752px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 무악재 */
-.T0316_Y_2_v2{left:790px;top:386px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 독립문 */
-.T0317_Y_2_v2{left:816px;top:416px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 경복궁 */
-.T0318_Y_2_v2{left:845px;top:448px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 안국 */
-.T0319_Y_2_v2{left:880px;top:489px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 종로3가 */
-.T0320_Y_2_v2{left:881px;top:551px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 을지로3가 */
-.T0321_Y_2_v2{left:946px;top:643px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 충무로 */
-.T0322_Y_2_v2{left:999px;top:693px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 동대입구 */
-.T0323_Y_2_v2{left:1045px;top:736px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 약수 */
-.T0324_Y_2_v2{left:1058px;top:744px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 금호 */
-.T0325_Y_2_v2{left:1058px;top:777px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 옥수 */
-.T0326_Y_2_v2{left:1058px;top:836px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 압구정 */
-.T0327_Y_2_v2{left:1058px;top:862px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 신사 */
-.T0328_Y_2_v2{left:1058px;top:888px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 잠원 */
-.T0329_Y_2_v2{left:1058px;top:917px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 고속터미널 */
-.T0330_Y_2_v2{left:1062px;top:992px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 교대 */
-.T0331_Y_2_v2{left:1088px;top:1020px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 남부터미널 */
-.T0332_Y_2_v2{left:1137px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 양재 */
-.T0333_Y_2_v2{left:1197px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 매봉 */
-.T0334_Y_2_v2{left:1264px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 도곡 */
-.T0335_Y_2_v2{left:1321px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 대치 */
-.T0336_Y_2_v2{left:1374px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 학여울 */
-.T0337_Y_2_v2{left:1442px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 대청 */
-.T0338_Y_2_v2{left:1515px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 일원 */
-.T0339_Y_2_v2{left:1595px;top:1100px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 수서 */
-.T0340_Y_2_v2{left:1668px;top:1033px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 가락시장 */
-.T0341_Y_2_v2{left:1705px;top:1004px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 경찰병원 */
-.T0342_Y_2_v2{left:1752px;top:969px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 오금 */
+.T0309_Y_2_v2{left:481px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 지축 */
+.T0310_Y_2_v2{left:515px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 구파발 */
+.T0311_Y_2_v2{left:544px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 연신내 */
+.T0312_Y_2_v2{left:624px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 불광 */
+.T0313_Y_2_v2{left:671px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 녹번 */
+.T0314_Y_2_v2{left:711px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 홍제 */
+.T0315_Y_2_v2{left:752px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 무악재 */
+.T0316_Y_2_v2{left:790px;top:386px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 독립문 */
+.T0317_Y_2_v2{left:816px;top:416px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경복궁 */
+.T0318_Y_2_v2{left:845px;top:448px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 안국 */
+.T0319_Y_2_v2{left:880px;top:489px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T0320_Y_2_v2{left:881px;top:551px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로3가 */
+.T0321_Y_2_v2{left:946px;top:643px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충무로 */
+.T0322_Y_2_v2{left:999px;top:693px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대입구 */
+.T0323_Y_2_v2{left:1045px;top:736px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 약수 */
+.T0324_Y_2_v2{left:1058px;top:744px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 금호 */
+.T0325_Y_2_v2{left:1058px;top:777px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 옥수 */
+.T0326_Y_2_v2{left:1058px;top:836px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 압구정 */
+.T0327_Y_2_v2{left:1058px;top:862px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신사 */
+.T0328_Y_2_v2{left:1058px;top:888px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 잠원 */
+.T0329_Y_2_v2{left:1058px;top:917px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고속터미널 */
+.T0330_Y_2_v2{left:1062px;top:992px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 교대 */
+.T0331_Y_2_v2{left:1088px;top:1020px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 남부터미널 */
+.T0332_Y_2_v2{left:1137px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양재 */
+.T0333_Y_2_v2{left:1197px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 매봉 */
+.T0334_Y_2_v2{left:1264px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 도곡 */
+.T0335_Y_2_v2{left:1321px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대치 */
+.T0336_Y_2_v2{left:1374px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 학여울 */
+.T0337_Y_2_v2{left:1442px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대청 */
+.T0338_Y_2_v2{left:1515px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 일원 */
+.T0339_Y_2_v2{left:1595px;top:1100px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 수서 */
+.T0340_Y_2_v2{left:1668px;top:1033px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 가락시장 */
+.T0341_Y_2_v2{left:1705px;top:1004px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경찰병원 */
+.T0342_Y_2_v2{left:1752px;top:969px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
 
 /* 3호선 하행선(이동,접근) */
-.T0309_N_2_v2{left:466px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 지축 */
-.T0310_N_2_v2{left:498px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 구파발 */
-.T0311_N_2_v2{left:529px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 연신내 */
-.T0312_N_2_v2{left:583px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 불광 */
-.T0313_N_2_v2{left:646px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 녹번 */
-.T0314_N_2_v2{left:690px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 홍제 */
-.T0315_N_2_v2{left:731px;top:366px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 무악재 */
-.T0316_N_2_v2{left:774px;top:369px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 독립문 */
-.T0317_N_2_v2{left:803px;top:401px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 경복궁 */
-.T0318_N_2_v2{left:831px;top:432px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 안국 */
-.T0319_N_2_v2{left:863px;top:468px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 종로3가 */
-.T0320_N_2_v2{left:881px;top:509px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 을지로3가 */
-.T0321_N_2_v2{left:913px;top:613px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 충무로 */
-.T0322_N_2_v2{left:972px;top:668px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 동대입구 */
-.T0323_N_2_v2{left:1020px;top:713px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 약수 */
-.T0324_N_2_v2{left:1056px;top:747px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 금호 */
-.T0325_N_2_v2{left:1058px;top:760px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 옥수 */
-.T0326_N_2_v2{left:1056px;top:806px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 압구정 */
-.T0327_N_2_v2{left:1058px;top:849px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 신사 */
-.T0328_N_2_v2{left:1058px;top:875px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 잠원 */
-.T0329_N_2_v2{left:1058px;top:902px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 고속터미널 */
-.T0330_N_2_v2{left:1058px;top:940px;background-image:url(../../public/images/train/train_line3/line3_down_270_default.png);}/* 교대 */
-.T0331_N_2_v2{left:1074px;top:1007px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 남부터미널 */
-.T0332_N_2_v2{left:1107px;top:1038px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 양재 */
-.T0333_N_2_v2{left:1167px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 매봉 */
-.T0334_N_2_v2{left:1230px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 도곡 */
-.T0335_N_2_v2{left:1291px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 대치 */
-.T0336_N_2_v2{left:1347px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 학여울 */
-.T0337_N_2_v2{left:1407px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 대청 */
-.T0338_N_2_v2{left:1477px;top:1050px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 일원 */
-.T0339_N_2_v2{left:1552px;top:1067px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 수서 */
-.T0340_N_2_v2{left:1635px;top:1067px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 가락시장 */
-.T0341_N_2_v2{left:1687px;top:1018px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 경찰병원 */
-.T0342_N_2_v2{left:1728px;top:986px;background-image:url(../../public/images/train/train_line3/line3_up_0_default.png);}/* 오금 */
+.T0309_N_2_v2{left:466px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 지축 */
+.T0310_N_2_v2{left:498px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 구파발 */
+.T0311_N_2_v2{left:529px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 연신내 */
+.T0312_N_2_v2{left:583px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 불광 */
+.T0313_N_2_v2{left:646px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 녹번 */
+.T0314_N_2_v2{left:690px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 홍제 */
+.T0315_N_2_v2{left:731px;top:366px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 무악재 */
+.T0316_N_2_v2{left:774px;top:369px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 독립문 */
+.T0317_N_2_v2{left:803px;top:401px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경복궁 */
+.T0318_N_2_v2{left:831px;top:432px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 안국 */
+.T0319_N_2_v2{left:863px;top:468px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T0320_N_2_v2{left:881px;top:509px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로3가 */
+.T0321_N_2_v2{left:913px;top:613px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충무로 */
+.T0322_N_2_v2{left:972px;top:668px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대입구 */
+.T0323_N_2_v2{left:1020px;top:713px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 약수 */
+.T0324_N_2_v2{left:1056px;top:747px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 금호 */
+.T0325_N_2_v2{left:1058px;top:760px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 옥수 */
+.T0326_N_2_v2{left:1056px;top:806px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 압구정 */
+.T0327_N_2_v2{left:1058px;top:849px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신사 */
+.T0328_N_2_v2{left:1058px;top:875px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 잠원 */
+.T0329_N_2_v2{left:1058px;top:902px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고속터미널 */
+.T0330_N_2_v2{left:1058px;top:940px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 교대 */
+.T0331_N_2_v2{left:1074px;top:1007px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 남부터미널 */
+.T0332_N_2_v2{left:1107px;top:1038px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양재 */
+.T0333_N_2_v2{left:1167px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 매봉 */
+.T0334_N_2_v2{left:1230px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 도곡 */
+.T0335_N_2_v2{left:1291px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대치 */
+.T0336_N_2_v2{left:1347px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 학여울 */
+.T0337_N_2_v2{left:1407px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 대청 */
+.T0338_N_2_v2{left:1477px;top:1050px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 일원 */
+.T0339_N_2_v2{left:1552px;top:1067px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 수서 */
+.T0340_N_2_v2{left:1635px;top:1067px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 가락시장 */
+.T0341_N_2_v2{left:1687px;top:1018px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 경찰병원 */
+.T0342_N_2_v2{left:1728px;top:986px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
 
 /* 4호선 상행선(출발, 도착) */
 .T0405_Y_1_v2{left:1560px;top:217px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 진접 */
@@ -997,238 +997,234 @@
 .T0434_N_2_v2{left:865px;top:989px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 남태령 */
 
 /* 5호선 상행 (도착) */
-.T2511_1_0_v2{left:322px;top:543px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 방화 */
-.T2512_1_0_v2{left:275px;top:543px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 개화산 */
-.T2513_1_0_v2{left:243px;top:598px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 김포공항 */
-.T2514_1_0_v2{left:243px;top:623px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 송정 */
-.T2515_1_0_v2{left:243px;top:650px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 마곡 */
-.T2516_1_0_v2{left:243px;top:673px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 발산 */
-.T2517_1_0_v2{left:274px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 우장산 */
-.T2518_1_0_v2{left:310px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 화곡 */
-.T2519_1_0_v2{left:358px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 까치산 */
-.T2520_1_0_v2{left:391px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 신정 */
-.T2521_1_0_v2{left:420px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 목동 */
-.T2522_1_0_v2{left:453px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 오목교 */
-.T2523_1_0_v2{left:486px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 양평 */
-.T2524_1_0_v2{left:510px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 영등포구청 */
-.T2525_1_0_v2{left:552px;top:723px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 영등포시장 */
-.T2526_1_0_v2{left:588px;top:753px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 신길 */
-.T2527_1_0_v2{left:658px;top:753px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 여의도 */
-.T2528_1_0_v2{left:701px;top:753px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 여의나루 */
-.T2529_1_0_v2{left:727px;top:750px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 마포 */
-.T2530_1_0_v2{left:727px;top:716px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 공덕 */
-.T2531_1_0_v2{left:727px;top:575px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 애오개 */
-.T2532_1_0_v2{left:727px;top:551px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 충정로 */
-.T2533_1_0_v2{left:727px;top:500px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 서대문 */
-.T2534_1_0_v2{left:796px;top:460px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 광화문 */
-.T2535_1_0_v2{left:893px;top:460px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 종로3가 */
-.T2536_1_0_v2{left:989px;top:543px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 을지로4가 */
-.T2537_1_0_v2{left:1045px;top:543px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 동대문역사문화공원 */
-.T2538_1_0_v2{left:1061px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 청구 */
-.T2539_1_0_v2{left:1122px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 신금호 */
-.T2540_1_0_v2{left:1172px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 행당 */
-.T2541_1_0_v2{left:1224px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 왕십리 */
-.T2542_1_0_v2{left:1273px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 마장 */
-.T2543_1_0_v2{left:1349px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 답십리 */
-.T2544_1_0_v2{left:1403px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 장한평 */
-.T2545_1_0_v2{left:1445px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 군자 */
-.T2546_1_0_v2{left:1530px;top:651px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 아차산 */
-.T2547_1_0_v2{left:1581px;top:702px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 광나루 */
-.T2548_1_0_v2{left:1669px;top:783px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 천호 */
-.T2549_1_0_v2{left:1704px;top:783px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 강동 */
-.T2550_1_0_v2{left:1709px;top:765px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 길동 */
-.T2551_1_0_v2{left:1718px;top:738px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 굽은다리 */
-.T2552_1_0_v2{left:1729px;top:706px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 명일 */
-.T2553_1_0_v2{left:1737px;top:680px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 고덕 */
-.T2554_1_0_v2{left:1745px;top:657px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 상일동 */
-.T2562_1_0_v2{left:1819px;top:632px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 강일 */
-.T2563_1_0_v2{left:1849px;top:617px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 미사 */
-.T2564_1_0_v2{left:1849px;top:588px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 하남풍산 */
-.T2565_1_0_v2{left:1849px;top:552px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 하남시청 */
-.T2566_1_0_v2{left:1849px;top:523px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 하남검단산 */
-.T2555_1_0_v2{left:1730px;top:841px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 둔촌동 */
-.T2556_1_0_v2{left:1747px;top:898px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 올림픽공원 */
-.T2557_1_0_v2{left:1757px;top:935px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 방이 */
-.T2558_1_0_v2{left:1764px;top:957px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 오금 */
-.T2559_1_0_v2{left:1773px;top:964px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 개롱 */
-.T2560_1_0_v2{left:1803px;top:964px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 거여 */
-.T2561_1_0_v2{left:1833px;top:964px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 마천 */
+.T2511_1_0_v2{left:322px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방화 */
+.T2512_1_0_v2{left:275px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개화산 */
+.T2513_1_0_v2{left:243px;top:598px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 김포공항 */
+.T2514_1_0_v2{left:243px;top:623px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 송정 */
+.T2515_1_0_v2{left:243px;top:650px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마곡 */
+.T2516_1_0_v2{left:243px;top:673px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 발산 */
+.T2517_1_0_v2{left:274px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 우장산 */
+.T2518_1_0_v2{left:310px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 화곡 */
+.T2519_1_0_v2{left:358px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 까치산 */
+.T2520_1_0_v2{left:391px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신정 */
+.T2521_1_0_v2{left:420px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 목동 */
+.T2522_1_0_v2{left:453px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오목교 */
+.T2523_1_0_v2{left:486px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양평 */
+.T2524_1_0_v2{left:510px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포구청 */
+.T2525_1_0_v2{left:552px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포시장 */
+.T2526_1_0_v2{left:588px;top:753px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신길 */
+.T2527_1_0_v2{left:658px;top:753px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의도 */
+.T2528_1_0_v2{left:701px;top:753px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의나루 */
+.T2529_1_0_v2{left:727px;top:750px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마포 */
+.T2530_1_0_v2{left:727px;top:716px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 공덕 */
+.T2531_1_0_v2{left:727px;top:575px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 애오개 */
+.T2532_1_0_v2{left:727px;top:551px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충정로 */
+.T2533_1_0_v2{left:727px;top:500px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 서대문 */
+.T2534_1_0_v2{left:796px;top:460px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광화문 */
+.T2535_1_0_v2{left:893px;top:460px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T2536_1_0_v2{left:989px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로4가 */
+.T2537_1_0_v2{left:1045px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대문역사문화공원 */
+.T2538_1_0_v2{left:1061px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 청구 */
+.T2539_1_0_v2{left:1122px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신금호 */
+.T2540_1_0_v2{left:1172px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 행당 */
+.T2541_1_0_v2{left:1224px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 왕십리 */
+.T2542_1_0_v2{left:1273px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마장 */
+.T2543_1_0_v2{left:1349px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 답십리 */
+.T2544_1_0_v2{left:1403px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 장한평 */
+.T2545_1_0_v2{left:1445px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 군자 */
+.T2546_1_0_v2{left:1530px;top:651px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 아차산 */
+.T2547_1_0_v2{left:1581px;top:702px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광나루 */
+.T2548_1_0_v2{left:1669px;top:783px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 천호 */
+.T2549_1_0_v2{left:1704px;top:783px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강동 */
+.T2550_1_0_v2{left:1709px;top:765px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 길동 */
+.T2551_1_0_v2{left:1718px;top:738px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 굽은다리 */
+.T2552_1_0_v2{left:1729px;top:706px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 명일 */
+.T2553_1_0_v2{left:1737px;top:680px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고덕 */
+.T2554_1_0_v2{left:1745px;top:657px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 상일동 */
+.T2562_1_0_v2{left:1819px;top:632px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강일 */
+.T2563_1_0_v2{left:1849px;top:617px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 미사 */
+.T2564_1_0_v2{left:1849px;top:588px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남풍산 */
+.T2565_1_0_v2{left:1849px;top:552px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남시청 */
+.T2566_1_0_v2{left:1849px;top:523px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남검단산 */
+.T2555_1_0_v2{left:1730px;top:841px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 둔촌동 */
+.T2556_1_0_v2{left:1747px;top:898px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 올림픽공원 */
+.T2557_1_0_v2{left:1757px;top:935px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방이 */
+.T2558_1_0_v2{left:1764px;top:957px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
+.T2559_1_0_v2{left:1773px;top:964px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개롱 */
+.T2560_1_0_v2{left:1803px;top:964px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 거여 */
+.T2561_1_0_v2{left:1833px;top:964px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마천 */
 
 /* 5호선 상행 (접근,출발) */
-.T2511_0_0_v2, .T2512_2_0_v2{left:300px;top:543px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 방화 */
-.T2512_0_0_v2, .T2513_2_0_v2{left:257px;top:563px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 개화산 */
-.T2513_0_0_v2, .T2514_2_0_v2{left:243px;top:610px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 김포공항 */
-.T2514_0_0_v2, .T2515_2_0_v2{left:243px;top:636px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 송정 */
-.T2515_0_0_v2, .T2516_2_0_v2{left:243px;top:662px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 마곡 */
-.T2516_0_0_v2, .T2517_2_0_v2{left:243px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 발산 */
-.T2517_0_0_v2, .T2518_2_0_v2{left:294px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 우장산 */
-.T2518_0_0_v2, .T2519_2_0_v2{left:334px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 화곡 */
-.T2519_0_0_v2, .T2520_2_0_v2{left:374px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 까치산 */
-.T2520_0_0_v2, .T2521_2_0_v2{left:406px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 신정 */
-.T2521_0_0_v2, .T2522_2_0_v2{left:437px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 목동 */
-.T2522_0_0_v2, .T2523_2_0_v2{left:469px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 오목교 */
-.T2523_0_0_v2, .T2524_2_0_v2{left:498px;top:685px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 양평 */
-.T2524_0_0_v2, .T2525_2_0_v2{left:537px;top:707px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 영등포구청 */
-.T2525_0_0_v2, .T2526_2_0_v2{left:569px;top:740px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 영등포시장 */
-.T2526_0_0_v2, .T2527_2_0_v2{left:623px;top:753px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 신길 */
-.T2527_0_0_v2, .T2528_2_0_v2{left:682px;top:753px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 여의도 */
-.T2528_0_0_v2, .T2529_2_0_v2{left:718px;top:753px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 여의나루 */
-.T2529_0_0_v2, .T2530_2_0_v2{left:727px;top:733px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 마포 */
-.T2530_0_0_v2, .T2531_2_0_v2{left:727px;top:640px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 공덕 */
-.T2531_0_0_v2, .T2532_2_0_v2{left:727px;top:563px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 애오개 */
-.T2532_0_0_v2, .T2533_2_0_v2{left:727px;top:525px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 충정로 */
-.T2533_0_0_v2, .T2534_2_0_v2{left:755px;top:460px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 서대문 */
-.T2534_0_0_v2, .T2535_2_0_v2{left:842px;top:460px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 광화문 */
-.T2535_0_0_v2, .T2536_2_0_v2{left:951px;top:507px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 종로3가 */
-.T2536_0_0_v2, .T2537_2_0_v2{left:1017px;top:543px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 을지로4가 */
-.T2537_0_0_v2, .T2538_2_0_v2{left:1061px;top:599px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 동대문역사문화공원 */
-.T2538_0_0_v2, .T2539_2_0_v2{left:1091px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 청구 */
-.T2539_0_0_v2, .T2540_2_0_v2{left:1148px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 신금호 */
-.T2540_0_0_v2, .T2541_2_0_v2{left:1196px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 행당 */
-.T2541_0_0_v2, .T2542_2_0_v2{left:1249px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 왕십리 */
-.T2542_0_0_v2, .T2543_2_0_v2{left:1313px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 마장 */
-.T2543_0_0_v2, .T2544_2_0_v2{left:1376px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 답십리 */
-.T2544_0_0_v2, .T2545_2_0_v2{left:1424px;top:606px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 장한평 */
-.T2545_0_0_v2, .T2546_2_0_v2{left:1504px;top:626px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 군자 */
-.T2546_0_0_v2, .T2547_2_0_v2{left:1554px;top:676px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 아차산 */
-.T2547_0_0_v2, .T2548_2_0_v2{left:1621px;top:744px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 광나루 */
-.T2548_0_0_v2, .T2549_2_0_v2{left:1690px;top:783px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 천호 */
-
-.T2549_0_0_M_v2, .T2550_2_0_M_v2{left:1706px;top:775px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 강동(길동) */
-.T2550_0_0_v2, .T2551_2_0_v2{left:1714px;top:750px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 길동 */
-.T2551_0_0_v2, .T2552_2_0_v2{left:1724px;top:718px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 굽은다리 */
-.T2552_0_0_v2, .T2553_2_0_v2{left:1733px;top:692px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 명일 */
-.T2553_0_0_v2, .T2554_2_0_v2{left:1742px;top:665px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 고덕 */
-.T2554_0_0_v2, .T2562_2_0_v2{left:1785px;top:632px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 상일동 */
-.T2562_0_0_v2, .T2563_2_0_v2{left:1849px;top:632px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 강일 */
-.T2563_0_0_v2, .T2564_2_0_v2{left:1849px;top:603px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 미사 */
-.T2564_0_0_v2, .T2565_2_0_v2{left:1849px;top:568px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 하남풍산 */
-.T2565_0_0_v2, .T2566_2_0_v2{left:1849px;top:537px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 하남시청 */
-
-.T2549_0_0_v2, .T2555_2_0_v2{left:1725px;top:827px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 강동(둔촌동) */
-.T2555_0_0_v2, .T2556_2_0_v2{left:1737px;top:866px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 둔촌동 */
-.T2556_0_0_v2, .T2557_2_0_v2{left:1752px;top:917px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 올림픽공원 */
-.T2557_0_0_v2, .T2558_2_0_v2{left:1760px;top:945px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 방이  */
-.T2558_0_0_v2, .T2559_2_0_v2{left:1769px;top:974px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 오금 */
-.T2559_0_0_v2, .T2560_2_0_v2{left:1788px;top:964px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 개롱 */
-.T2560_0_0_v2, .T2561_2_0_v2{left:1818px;top:964px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 거여 */
+.T2511_0_0_v2, .T2512_2_0_v2{left:300px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방화 */
+.T2512_0_0_v2, .T2513_2_0_v2{left:257px;top:563px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개화산 */
+.T2513_0_0_v2, .T2514_2_0_v2{left:243px;top:610px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 김포공항 */
+.T2514_0_0_v2, .T2515_2_0_v2{left:243px;top:636px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 송정 */
+.T2515_0_0_v2, .T2516_2_0_v2{left:243px;top:662px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마곡 */
+.T2516_0_0_v2, .T2517_2_0_v2{left:243px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 발산 */
+.T2517_0_0_v2, .T2518_2_0_v2{left:294px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 우장산 */
+.T2518_0_0_v2, .T2519_2_0_v2{left:334px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 화곡 */
+.T2519_0_0_v2, .T2520_2_0_v2{left:374px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 까치산 */
+.T2520_0_0_v2, .T2521_2_0_v2{left:406px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신정 */
+.T2521_0_0_v2, .T2522_2_0_v2{left:437px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 목동 */
+.T2522_0_0_v2, .T2523_2_0_v2{left:469px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오목교 */
+.T2523_0_0_v2, .T2524_2_0_v2{left:498px;top:685px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양평 */
+.T2524_0_0_v2, .T2525_2_0_v2{left:537px;top:707px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포구청 */
+.T2525_0_0_v2, .T2526_2_0_v2{left:569px;top:740px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포시장 */
+.T2526_0_0_v2, .T2527_2_0_v2{left:623px;top:753px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신길 */
+.T2527_0_0_v2, .T2528_2_0_v2{left:682px;top:753px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의도 */
+.T2528_0_0_v2, .T2529_2_0_v2{left:718px;top:753px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의나루 */
+.T2529_0_0_v2, .T2530_2_0_v2{left:727px;top:733px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마포 */
+.T2530_0_0_v2, .T2531_2_0_v2{left:727px;top:640px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 공덕 */
+.T2531_0_0_v2, .T2532_2_0_v2{left:727px;top:563px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 애오개 */
+.T2532_0_0_v2, .T2533_2_0_v2{left:727px;top:525px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충정로 */
+.T2533_0_0_v2, .T2534_2_0_v2{left:755px;top:460px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 서대문 */
+.T2534_0_0_v2, .T2535_2_0_v2{left:842px;top:460px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광화문 */
+.T2535_0_0_v2, .T2536_2_0_v2{left:951px;top:507px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T2536_0_0_v2, .T2537_2_0_v2{left:1017px;top:543px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로4가 */
+.T2537_0_0_v2, .T2538_2_0_v2{left:1061px;top:599px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대문역사문화공원 */
+.T2538_0_0_v2, .T2539_2_0_v2{left:1091px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 청구 */
+.T2539_0_0_v2, .T2540_2_0_v2{left:1148px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신금호 */
+.T2540_0_0_v2, .T2541_2_0_v2{left:1196px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 행당 */
+.T2541_0_0_v2, .T2542_2_0_v2{left:1249px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 왕십리 */
+.T2542_0_0_v2, .T2543_2_0_v2{left:1313px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마장 */
+.T2543_0_0_v2, .T2544_2_0_v2{left:1376px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 답십리 */
+.T2544_0_0_v2, .T2545_2_0_v2{left:1424px;top:606px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 장한평 */
+.T2545_0_0_v2, .T2546_2_0_v2{left:1504px;top:626px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 군자 */
+.T2546_0_0_v2, .T2547_2_0_v2{left:1554px;top:676px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 아차산 */
+.T2547_0_0_v2, .T2548_2_0_v2{left:1621px;top:744px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광나루 */
+.T2548_0_0_v2, .T2549_2_0_v2{left:1690px;top:783px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 천호 */
+.T2549_0_0_M_v2, .T2550_2_0_M_v2{left:1706px;top:775px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강동(길동) */
+.T2550_0_0_v2, .T2551_2_0_v2{left:1714px;top:750px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 길동 */
+.T2551_0_0_v2, .T2552_2_0_v2{left:1724px;top:718px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 굽은다리 */
+.T2552_0_0_v2, .T2553_2_0_v2{left:1733px;top:692px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 명일 */
+.T2553_0_0_v2, .T2554_2_0_v2{left:1742px;top:665px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고덕 */
+.T2554_0_0_v2, .T2562_2_0_v2{left:1785px;top:632px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 상일동 */
+.T2562_0_0_v2, .T2563_2_0_v2{left:1849px;top:632px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강일 */
+.T2563_0_0_v2, .T2564_2_0_v2{left:1849px;top:603px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 미사 */
+.T2564_0_0_v2, .T2565_2_0_v2{left:1849px;top:568px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남풍산 */
+.T2565_0_0_v2, .T2566_2_0_v2{left:1849px;top:537px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남시청 */
+.T2549_0_0_v2, .T2555_2_0_v2{left:1725px;top:827px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강동(둔촌동) */
+.T2555_0_0_v2, .T2556_2_0_v2{left:1737px;top:866px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 둔촌동 */
+.T2556_0_0_v2, .T2557_2_0_v2{left:1752px;top:917px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 올림픽공원 */
+.T2557_0_0_v2, .T2558_2_0_v2{left:1760px;top:945px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방이 */
+.T2558_0_0_v2, .T2559_2_0_v2{left:1769px;top:974px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
+.T2559_0_0_v2, .T2560_2_0_v2{left:1788px;top:964px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개롱 */
+.T2560_0_0_v2, .T2561_2_0_v2{left:1818px;top:964px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 거여 */
 
 /* 5호선 하행 (도착) */
-.T2511_1_1_v2{left:322px;top:503px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 방화 */
-.T2512_1_1_v2{left:275px;top:503px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 개화산 */
-.T2513_1_1_v2{left:220px;top:580px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 김포공항 */
-.T2514_1_1_v2{left:220px;top:607px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 송정 */
-.T2515_1_1_v2{left:220px;top:632px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 마곡 */
-.T2516_1_1_v2{left:220px;top:657px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 발산 */
-.T2517_1_1_v2{left:275px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 우장산 */
-.T2518_1_1_v2{left:311px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 화곡 */
-.T2519_1_1_v2{left:358px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 까치산 */
-.T2520_1_1_v2{left:392px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 신정 */
-.T2521_1_1_v2{left:421px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 목동 */
-.T2522_1_1_v2{left:454px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 오목교 */
-.T2523_1_1_v2{left:488px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 양평 */
-.T2524_1_1_v2{left:508px;top:725px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 영등포구청 */
-.T2525_1_1_v2{left:533px;top:754px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 영등포시장 */
-.T2526_1_1_v2{left:588px;top:792px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 신길 */
-.T2527_1_1_v2{left:658px;top:792px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 여의도 */
-.T2528_1_1_v2{left:701px;top:792px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 여의나루 */
-.T2529_1_1_v2{left:751px;top:766px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 마포 */
-.T2530_1_1_v2{left:751px;top:732px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 공덕 */
-.T2531_1_1_v2{left:751px;top:591px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 애오개 */
-.T2532_1_1_v2{left:751px;top:567px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 충정로 */
-.T2533_1_1_v2{left:751px;top:516px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 서대문 */
-.T2534_1_1_v2{left:796px;top:499px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 광화문 */
-.T2535_1_1_v2{left:893px;top:499px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 종로3가 */
-.T2536_1_1_v2{left:990px;top:584px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 을지로4가 */
-.T2537_1_1_v2{left:1036px;top:584px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 동대문역사문화공원 */
-.T2538_1_1_v2{left:1061px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 청구 */
-.T2539_1_1_v2{left:1122px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 신금호 */
-.T2540_1_1_v2{left:1173px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 행당 */
-.T2541_1_1_v2{left:1224px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 왕십리 */
-.T2542_1_1_v2{left:1274px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 마장 */
-.T2543_1_1_v2{left:1350px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 답십리 */
-.T2544_1_1_v2{left:1403px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 장한평 */
-.T2545_1_1_v2{left:1446px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 군자 */
-.T2546_1_1_v2{left:1512px;top:683px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 아차산 */
-.T2547_1_1_v2{left:1562px;top:733px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 광나루 */
-.T2548_1_1_v2{left:1670px;top:824px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 천호 */
-.T2549_1_1_v2{left:1703px;top:824px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 강동 */
-.T2550_1_1_v2{left:1730px;top:784px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 길동 */
-.T2551_1_1_v2{left:1740px;top:756px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 굽은다리 */
-.T2552_1_1_v2{left:1750px;top:724px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 명일 */
-.T2553_1_1_v2{left:1759px;top:697px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 고덕 */
-.T2554_1_1_v2{left:1766px;top:675px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 상일동 */
-.T2562_1_1_v2{left:1820px;top:671px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 강일 */
-.T2563_1_1_v2{left:1872px;top:634px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 미사 */
-.T2564_1_1_v2{left:1872px;top:605px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 하남풍산 */
-.T2565_1_1_v2{left:1872px;top:570px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 하남시청 */
-.T2566_1_1_v2{left:1872px;top:540px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 하남검단산 */
-.T2555_1_1_v2{left:1707px;top:830px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 둔촌동 */
-.T2556_1_1_v2{left:1723px;top:887px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 올림픽공원 */
-.T2557_1_1_v2{left:1733px;top:922px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 방이 */
-.T2558_1_1_v2{left:1740px;top:947px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 오금 */
-.T2559_1_1_v2{left:1774px;top:1004px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 개롱 */
-.T2560_1_1_v2{left:1804px;top:1004px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 거여 */
-.T2561_1_1_v2{left:1834px;top:1004px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 마천 */
+.T2511_1_1_v2{left:322px;top:503px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방화 */
+.T2512_1_1_v2{left:275px;top:503px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개화산 */
+.T2513_1_1_v2{left:220px;top:580px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 김포공항 */
+.T2514_1_1_v2{left:220px;top:607px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 송정 */
+.T2515_1_1_v2{left:220px;top:632px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마곡 */
+.T2516_1_1_v2{left:220px;top:657px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 발산 */
+.T2517_1_1_v2{left:275px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 우장산 */
+.T2518_1_1_v2{left:311px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 화곡 */
+.T2519_1_1_v2{left:358px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 까치산 */
+.T2520_1_1_v2{left:392px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신정 */
+.T2521_1_1_v2{left:421px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 목동 */
+.T2522_1_1_v2{left:454px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오목교 */
+.T2523_1_1_v2{left:488px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양평 */
+.T2524_1_1_v2{left:508px;top:725px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포구청 */
+.T2525_1_1_v2{left:533px;top:754px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포시장 */
+.T2526_1_1_v2{left:588px;top:792px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신길 */
+.T2527_1_1_v2{left:658px;top:792px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의도 */
+.T2528_1_1_v2{left:701px;top:792px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의나루 */
+.T2529_1_1_v2{left:751px;top:766px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마포 */
+.T2530_1_1_v2{left:751px;top:732px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 공덕 */
+.T2531_1_1_v2{left:751px;top:591px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 애오개 */
+.T2532_1_1_v2{left:751px;top:567px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충정로 */
+.T2533_1_1_v2{left:751px;top:516px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 서대문 */
+.T2534_1_1_v2{left:796px;top:499px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광화문 */
+.T2535_1_1_v2{left:893px;top:499px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T2536_1_1_v2{left:990px;top:584px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로4가 */
+.T2537_1_1_v2{left:1036px;top:584px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대문역사문화공원 */
+.T2538_1_1_v2{left:1061px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 청구 */
+.T2539_1_1_v2{left:1122px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신금호 */
+.T2540_1_1_v2{left:1173px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 행당 */
+.T2541_1_1_v2{left:1224px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 왕십리 */
+.T2542_1_1_v2{left:1274px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마장 */
+.T2543_1_1_v2{left:1350px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 답십리 */
+.T2544_1_1_v2{left:1403px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 장한평 */
+.T2545_1_1_v2{left:1446px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 군자 */
+.T2546_1_1_v2{left:1512px;top:683px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 아차산 */
+.T2547_1_1_v2{left:1562px;top:733px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광나루 */
+.T2548_1_1_v2{left:1670px;top:824px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 천호 */
+.T2549_1_1_v2{left:1703px;top:824px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강동 */
+.T2550_1_1_v2{left:1730px;top:784px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 길동 */
+.T2551_1_1_v2{left:1740px;top:756px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 굽은다리 */
+.T2552_1_1_v2{left:1750px;top:724px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 명일 */
+.T2553_1_1_v2{left:1759px;top:697px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고덕 */
+.T2554_1_1_v2{left:1766px;top:675px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 상일동 */
+.T2562_1_1_v2{left:1820px;top:671px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강일 */
+.T2563_1_1_v2{left:1872px;top:634px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 미사 */
+.T2564_1_1_v2{left:1872px;top:605px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남풍산 */
+.T2565_1_1_v2{left:1872px;top:570px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남시청 */
+.T2566_1_1_v2{left:1872px;top:540px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남검단산 */
+.T2555_1_1_v2{left:1707px;top:830px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 둔촌동 */
+.T2556_1_1_v2{left:1723px;top:887px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 올림픽공원 */
+.T2557_1_1_v2{left:1733px;top:922px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방이 */
+.T2558_1_1_v2{left:1740px;top:947px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
+.T2559_1_1_v2{left:1774px;top:1004px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개롱 */
+.T2560_1_1_v2{left:1804px;top:1004px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 거여 */
+.T2561_1_1_v2{left:1834px;top:1004px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마천 */
 
 /* 5호선 하행 (접근,출발) */
-.T2512_0_1_v2, .T2511_2_1_v2{left:300px;top:503px;background-image:url(../../public/images/train/train_line5/line5_down_180_default.png);}/* 개화산 */
-.T2513_0_1_v2, .T2512_2_1_v2{left:234px;top:546px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 김포공항 */
-.T2514_0_1_v2, .T2513_2_1_v2{left:220px;top:593px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 송정 */
-.T2515_0_1_v2, .T2514_2_1_v2{left:220px;top:619px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 마곡 */
-.T2516_0_1_v2, .T2515_2_1_v2{left:220px;top:645px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 발산 */
-.T2517_0_1_v2, .T2516_2_1_v2{left:220px;top:683px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 우장산 */
-.T2518_0_1_v2, .T2517_2_1_v2{left:294px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 화곡 */
-.T2519_0_1_v2, .T2518_2_1_v2{left:334px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 까치산 */
-.T2520_0_1_v2, .T2519_2_1_v2{left:374px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 신정 */
-.T2521_0_1_v2, .T2520_2_1_v2{left:406px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 목동 */
-.T2522_0_1_v2, .T2521_2_1_v2{left:437px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 오목교 */
-.T2523_0_1_v2, .T2522_2_1_v2{left:469px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 양평 */
-.T2524_0_1_v2, .T2523_2_1_v2{left:498px;top:723px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 영등포구청 */
-.T2525_0_1_v2, .T2524_2_1_v2{left:517px;top:737px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 영등포시장 */
-.T2526_0_1_v2, .T2525_2_1_v2{left:549px;top:770px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 신길 */
-.T2527_0_1_v2, .T2526_2_1_v2{left:623px;top:791px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 여의도 */
-.T2528_0_1_v2, .T2527_2_1_v2{left:682px;top:791px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 여의나루 */
-.T2529_0_1_v2, .T2528_2_1_v2{left:728px;top:791px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 마포 */
-.T2530_0_1_v2, .T2529_2_1_v2{left:751px;top:750px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 공덕 */
-.T2531_0_1_v2, .T2530_2_1_v2{left:751px;top:657px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 애오개 */
-.T2532_0_1_v2, .T2531_2_1_v2{left:751px;top:580px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 충정로 */
-.T2533_0_1_v2, .T2532_2_1_v2{left:751px;top:542px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 서대문 */
-.T2534_0_1_v2, .T2533_2_1_v2{left:765px;top:500px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 광화문 */
-.T2535_0_1_v2, .T2534_2_1_v2{left:842px;top:500px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 종로3가 */
-.T2536_0_1_v2, .T2535_2_1_v2{left:935px;top:539px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 을지로4가 */
-.T2537_0_1_v2, .T2536_2_1_v2{left:1018px;top:586px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 동대문역사문화공원 */
-.T2538_0_1_v2, .T2537_2_1_v2{left:1030px;top:582px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 청구 */
-.T2539_0_1_v2, .T2538_2_1_v2{left:1091px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 신금호 */
-.T2540_0_1_v2, .T2539_2_1_v2{left:1148px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 행당 */
-.T2541_0_1_v2, .T2540_2_1_v2{left:1196px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 왕십리 */
-.T2542_0_1_v2, .T2541_2_1_v2{left:1249px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 마장 */
-.T2543_0_1_v2, .T2542_2_1_v2{left:1313px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 답십리 */
-.T2544_0_1_v2, .T2543_2_1_v2{left:1376px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 장한평 */
-.T2545_0_1_v2, .T2544_2_1_v2{left:1424px;top:645px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 군자 */
-.T2546_0_1_v2, .T2545_2_1_v2{left:1484px;top:655px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 아차산 */
-.T2547_0_1_v2, .T2546_2_1_v2{left:1534px;top:704px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 광나루 */
-.T2548_0_1_v2, .T2547_2_1_v2{left:1601px;top:772px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 천호 */
-.T2549_0_1_v2, .T2548_2_1_v2{left:1690px;top:826px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 강동 */
-
-.T2550_0_1_M_v2, .T2549_2_1_M_v2{left:1726px;top:798px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 길동 */
-.T2551_0_1_v2, .T2550_2_1_v2{left:1734px;top:773px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 굽은다리 */
-.T2552_0_1_v2, .T2551_2_1_v2{left:1744px;top:741px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 명일 */
-.T2553_0_1_v2, .T2552_2_1_v2{left:1753px;top:714px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 고덕 */
-.T2554_0_1_v2, .T2553_2_1_v2{left:1762px;top:687px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 상일동 */
-.T2562_0_1_v2, .T2554_2_1_v2{left:1785px;top:672px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 강일 */
-.T2563_0_1_v2, .T2562_2_1_v2{left:1850px;top:672px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 미사 */
-.T2564_0_1_v2, .T2563_2_1_v2{left:1872px;top:620px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 하남풍산 */
-.T2565_0_1_v2, .T2564_2_1_v2{left:1872px;top:585px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 하남시청 */
-.T2566_0_1_v2, .T2565_2_1_v2{left:1872px;top:554px;background-image:url(../../public/images/train/train_line5/line5_up_90_default.png);}/* 하남검단 */
-
-.T2555_0_1_v2, .T2549_2_1_v2{left:1703px;top:816px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 둔촌동 */
-.T2556_0_1_v2, .T2555_2_1_v2{left:1714px;top:855px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 올림픽공원 */
-.T2557_0_1_v2, .T2556_2_1_v2{left:1729px;top:906px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 방이  */
-.T2558_0_1_v2, .T2557_2_1_v2{left:1737px;top:934px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 오금 */
-.T2559_0_1_v2, .T2558_2_1_v2{left:1748px;top:968px;background-image:url(../../public/images/train/train_line5/line5_down_270_default.png);}/* 개롱 */
-.T2560_0_1_v2, .T2559_2_1_v2{left:1788px;top:1004px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 거여 */
-.T2561_0_1_v2, .T2560_2_1_v2{left:1818px;top:1004px;background-image:url(../../public/images/train/train_line5/line5_up_0_default.png);}/* 마천 */
+.T2512_0_1_v2, .T2511_2_1_v2{left:300px;top:503px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개화산 */
+.T2513_0_1_v2, .T2512_2_1_v2{left:234px;top:546px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 김포공항 */
+.T2514_0_1_v2, .T2513_2_1_v2{left:220px;top:593px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 송정 */
+.T2515_0_1_v2, .T2514_2_1_v2{left:220px;top:619px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마곡 */
+.T2516_0_1_v2, .T2515_2_1_v2{left:220px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 발산 */
+.T2517_0_1_v2, .T2516_2_1_v2{left:220px;top:683px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 우장산 */
+.T2518_0_1_v2, .T2517_2_1_v2{left:294px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 화곡 */
+.T2519_0_1_v2, .T2518_2_1_v2{left:334px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 까치산 */
+.T2520_0_1_v2, .T2519_2_1_v2{left:374px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신정 */
+.T2521_0_1_v2, .T2520_2_1_v2{left:406px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 목동 */
+.T2522_0_1_v2, .T2521_2_1_v2{left:437px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오목교 */
+.T2523_0_1_v2, .T2522_2_1_v2{left:469px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 양평 */
+.T2524_0_1_v2, .T2523_2_1_v2{left:498px;top:723px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포구청 */
+.T2525_0_1_v2, .T2524_2_1_v2{left:517px;top:737px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 영등포시장 */
+.T2526_0_1_v2, .T2525_2_1_v2{left:549px;top:770px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신길 */
+.T2527_0_1_v2, .T2526_2_1_v2{left:623px;top:791px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의도 */
+.T2528_0_1_v2, .T2527_2_1_v2{left:682px;top:791px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 여의나루 */
+.T2529_0_1_v2, .T2528_2_1_v2{left:728px;top:791px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마포 */
+.T2530_0_1_v2, .T2529_2_1_v2{left:751px;top:750px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 공덕 */
+.T2531_0_1_v2, .T2530_2_1_v2{left:751px;top:657px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 애오개 */
+.T2532_0_1_v2, .T2531_2_1_v2{left:751px;top:580px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 충정로 */
+.T2533_0_1_v2, .T2532_2_1_v2{left:751px;top:542px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 서대문 */
+.T2534_0_1_v2, .T2533_2_1_v2{left:765px;top:500px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광화문 */
+.T2535_0_1_v2, .T2534_2_1_v2{left:842px;top:500px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 종로3가 */
+.T2536_0_1_v2, .T2535_2_1_v2{left:935px;top:539px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 을지로4가 */
+.T2537_0_1_v2, .T2536_2_1_v2{left:1018px;top:586px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 동대문역사문화공원 */
+.T2538_0_1_v2, .T2537_2_1_v2{left:1030px;top:582px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 청구 */
+.T2539_0_1_v2, .T2538_2_1_v2{left:1091px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 신금호 */
+.T2540_0_1_v2, .T2539_2_1_v2{left:1148px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 행당 */
+.T2541_0_1_v2, .T2540_2_1_v2{left:1196px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 왕십리 */
+.T2542_0_1_v2, .T2541_2_1_v2{left:1249px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마장 */
+.T2543_0_1_v2, .T2542_2_1_v2{left:1313px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 답십리 */
+.T2544_0_1_v2, .T2543_2_1_v2{left:1376px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 장한평 */
+.T2545_0_1_v2, .T2544_2_1_v2{left:1424px;top:645px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 군자 */
+.T2546_0_1_v2, .T2545_2_1_v2{left:1484px;top:655px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 아차산 */
+.T2547_0_1_v2, .T2546_2_1_v2{left:1534px;top:704px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 광나루 */
+.T2548_0_1_v2, .T2547_2_1_v2{left:1601px;top:772px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 천호 */
+.T2549_0_1_v2, .T2548_2_1_v2{left:1690px;top:826px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강동 */
+.T2550_0_1_M_v2, .T2549_2_1_M_v2{left:1726px;top:798px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 길동 */
+.T2551_0_1_v2, .T2550_2_1_v2{left:1734px;top:773px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 굽은다리 */
+.T2552_0_1_v2, .T2551_2_1_v2{left:1744px;top:741px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 명일 */
+.T2553_0_1_v2, .T2552_2_1_v2{left:1753px;top:714px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 고덕 */
+.T2554_0_1_v2, .T2553_2_1_v2{left:1762px;top:687px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 상일동 */
+.T2562_0_1_v2, .T2554_2_1_v2{left:1785px;top:672px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 강일 */
+.T2563_0_1_v2, .T2562_2_1_v2{left:1850px;top:672px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 미사 */
+.T2564_0_1_v2, .T2563_2_1_v2{left:1872px;top:620px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남풍산 */
+.T2565_0_1_v2, .T2564_2_1_v2{left:1872px;top:585px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남시청 */
+.T2566_0_1_v2, .T2565_2_1_v2{left:1872px;top:554px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 하남검단 */
+.T2555_0_1_v2, .T2549_2_1_v2{left:1703px;top:816px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 둔촌동 */
+.T2556_0_1_v2, .T2555_2_1_v2{left:1714px;top:855px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 올림픽공원 */
+.T2557_0_1_v2, .T2556_2_1_v2{left:1729px;top:906px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 방이 */
+.T2558_0_1_v2, .T2557_2_1_v2{left:1737px;top:934px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 오금 */
+.T2559_0_1_v2, .T2558_2_1_v2{left:1748px;top:968px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 개롱 */
+.T2560_0_1_v2, .T2559_2_1_v2{left:1788px;top:1004px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 거여 */
+.T2561_0_1_v2, .T2560_2_1_v2{left:1818px;top:1004px;background-image:url(../../public/images/boogie-train/boogie-train-modify.png);}/* 마천 */
 
 /* 6호선 상행 (도착) */
 .T2611_1_0_v2{left:594px;top:400px;background-image:url(../../public/images/train/train_line6/line6_up_90_default.png);}/* 응암(내선,외선) */
@@ -1382,6 +1378,7 @@
 .T2647_0_1_v2, .T2646_2_1_v2{left:1473px;top:429px;background-image:url(../../public/images/train/train_line6/line6_up_0_default.png);}/* 화랑대 */
 .T2648_0_1_v2, .T2647_2_1_v2{left:1534px;top:429px;background-image:url(../../public/images/train/train_line6/line6_up_0_default.png);}/* 봉화산 */
 .T2649_0_1_v2, .T2648_2_1_v2{left:1581px;top:429px;background-image:url(../../public/images/train/train_line6/line6_up_0_default.png);}/* 신내 */
+
 
 /* 7호선 상행 (도착) */
 .T2711_1_0_v2{left:1407px;top:248px;background-image:url(../../public/images/train/train_line7/line7_up_0_default.png);}/* 장암 */
