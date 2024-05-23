@@ -67,23 +67,23 @@
     flex: 1;
     height: 100vh;
     margin-left: 250px;
-    overflow-x: auto; /* 수평 스크롤 활성화 */
-    white-space: nowrap; /* 자식 요소가 한 줄로 표시되도록 설정 */
+    overflow-y: auto; /* 수직 스크롤 활성화 */
 }
 
 .gallery {
     display: flex;
-    flex-wrap: nowrap; /* 줄 바꿈을 하지 않도록 설정 */
+    flex-wrap: wrap; /* 줄 바꿈을 하도록 설정 */
     gap: 10px;
+    padding: 20px;
 }
 
 .gallery figure {
-    display: inline-block; /* 자식 요소를 인라인 블록으로 설정하여 한 줄로 표시 */
+    flex: 0 1 calc(25% - 10px); /* 각 요소의 너비를 25%로 설정하고 간격을 고려 */
     margin: 0;
 }
 
 .gallery img {
-    width: 250px;
+    width: 100%;
     height: auto;
     max-height: 200px;
     object-fit: cover;
