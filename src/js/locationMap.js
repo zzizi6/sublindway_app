@@ -17,6 +17,7 @@ const LocationMap = (props) => {
 
   // 로그아웃
   const Logout = () => {
+    sessionStorage.clear();
     const kakaoLogoutUrl = "https://kauth.kakao.com/oauth/logout?client_id=ce1dc31ea67a76ebff209bb8dff8992e&logout_redirect_uri=http://15.164.219.39:8079/oauth/logout";
     window.location.href = kakaoLogoutUrl;
   };
