@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 
 import '../css/GalleryScreen.css';
 
-const user = JSON.parse(sessionStorage.getItem('user'));
 
 const Riding = () => {
   const navigate = useNavigate();
   const [imageList, setImageList] = useState([]);
+  const user = JSON.parse(sessionStorage.getItem('user'));
 
   useEffect(() => {
 
@@ -39,8 +39,7 @@ const Riding = () => {
     }
 
     fetchImages(user.userId);
-
-  }, [user]);
+  }, [user.userId]);
 
 
   return (
