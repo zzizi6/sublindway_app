@@ -41,6 +41,10 @@ const Riding = () => {
     fetchImages(user.userId);
   }, [user.userId]);
 
+  useEffect(() => {
+    console.log(imageList); // 상태 업데이트 후 콘솔 로그
+  }, [imageList]);
+
   return (
     <div className="container">
       {/* 메뉴 스크린 생성 */}
