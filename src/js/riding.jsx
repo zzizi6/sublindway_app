@@ -39,11 +39,9 @@ const Riding = () => {
     }
 
     fetchImages(user.userId);
-  }, [user.userId]);
 
-  useEffect(() => {
-    console.log(imageList); // 상태 업데이트 후 콘솔 로그
-  }, [imageList]);
+  }, [user]);
+
 
   return (
     <div className="container">
