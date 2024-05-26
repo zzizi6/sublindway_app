@@ -24,10 +24,6 @@ function SubwayStatus(props) {
     const { trainNumber } = props;
 
     // 유저 trainNumber 세팅
-    useEffect(() => {
-        console.log("user.trainNum = " + user.trainNum);
-        console.log("trainNumber = " + trainNumber);
-    }, [user.trainNum, trainNumber]);
 
     useEffect(() => {
         const fetchTrainData = async () => {
@@ -37,7 +33,6 @@ function SubwayStatus(props) {
                 console.log('Data received:', response.data);
 
                 if (response.data) {
-                    // const s = String(response.data.statnId);
                     const slicedStatnId = response.data.statnId.slice(-4);
                     setStatnId(slicedStatnId);
                     setSubwayNm(response.data.subwayNm);
@@ -68,7 +63,7 @@ function SubwayStatus(props) {
                     setStr(tempStr);
 
                 } else {
-                    console.error(" 열차가 현재 운행하지 않거나, 열차에 대한 정보가 없습니다.");
+                    console.error("해당 열차가 현재 운행하지 않거나, 열차에 대한 정보가 없습니다.");
                 }
 
             } catch (error) {
