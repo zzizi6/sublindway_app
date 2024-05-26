@@ -44,6 +44,11 @@ const LocationMap = (props) => {
       onSetUserInfo(user.userId, user.userName);
       console.log("아이디 : " + user.userId + " 이름 : " + user.userName);
     }
+    else {
+      // 유저 정보가 없으면 로그인 페이지로 리디렉션
+      navigate('/login');
+    }
+
   }, [onSetUserInfo]);
 
   return (
