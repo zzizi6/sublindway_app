@@ -44,10 +44,7 @@ const LocationMap = (props) => {
       onSetUserInfo(user.userId, user.userName);
       console.log("아이디 : " + user.userId + " 이름 : " + user.userName);
     }
-    else {
-      // 유저 정보가 없으면 로그인 페이지로 리디렉션
-      navigate('/login');
-    }
+
 
   }, [onSetUserInfo]);
 
@@ -57,7 +54,7 @@ const LocationMap = (props) => {
       <div className="menu-container">
         <div className="menu-screen">
           <h1 className="menu-title" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>GreenBoogie</h1>
-          <h2 className="menu-id" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>{name} 님</h2>
+          <h2 className="menu-id" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>{user.userName} 님</h2>
           <button className="menu-button" onClick={() => navigate('/trainMap')} style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>실시간탑승정보</button>
           <button className="menu-button" onClick={() => navigate('/riding')} style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>승차정보</button>
           <button className="menu-button" onClick={() => navigate('/yolo')} style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>사진정보</button>
