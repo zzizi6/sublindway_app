@@ -42,7 +42,7 @@ const LocationMap = (props) => {
       setKakaoId(user.userId);
       setName(user.userName);
       onSetUserInfo(user.userId, user.userName);
-      console.log("아이디 : " + id + " 이름 : " + userName);
+      console.log("아이디 : " + user.userId + " 이름 : " + user.userName);
     }
   }, [onSetUserInfo]);
 
