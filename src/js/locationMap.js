@@ -17,7 +17,6 @@ const LocationMap = (props) => {
 
   // 로그아웃
   const Logout = () => {
-    sessionStorage.clear();
     const kakaoLogoutUrl = "https://kauth.kakao.com/oauth/logout?client_id=ce1dc31ea67a76ebff209bb8dff8992e&logout_redirect_uri=http://15.164.219.39:8079/oauth/logout";
     window.location.href = kakaoLogoutUrl;
   };
@@ -57,7 +56,6 @@ const LocationMap = (props) => {
       <div className="menu-container">
         <div className="menu-screen">
           <h1 className="menu-title" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>GreenBoogie</h1>
-          {/*<h2 className="menu-id" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>{user.userName} 님</h2>*/}
           {user && user.userName ? (
             <h2 className="menu-id" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>{user.userName} 님</h2>
           ) : null}
