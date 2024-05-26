@@ -107,7 +107,7 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
   };
 
   const map = new window.kakao.maps.Map(container, options);
-  map.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
+  // map.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
   mapRef.current = map;
 
   // 마커 이미지 설정
