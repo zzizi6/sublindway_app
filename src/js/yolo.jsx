@@ -16,19 +16,16 @@ const Yolo = () => {
       try {
         const response = await fetch(apiUrl);
         if (!response.ok) throw new Error('Failed to fetch image');
-        let tmp = await response.json()
-        // await JSON.parse(response);
-        setImageList(tmp);
-        console.log(imageList);
+        let tmp = await response.json();
 
         // 데이터가 배열인지 확인
         if (Array.isArray(tmp)) {
+          // 시간순으로 정렬 (오름차순)
+          tmp.sort((a, b) => new Date(a.localDateTime) - new Date(b.localDateTime));
           setImageList(tmp);
         } else {
           console.error('Fetched data is not an array:', tmp);
         }
-
-        // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
 
       } catch (error) {
         console.error('Error fetching image:', error);
@@ -50,14 +47,14 @@ const Yolo = () => {
         </div>
       </div>
 
-      <div className="gallery-container">
-        <div className="gallery">
+      <div className='gallery-container'>
+        <div className='gallery'>
           {imageList.map((image, index) => (
-            <div className='gallery' key={index} >
+            <div className='gallery' key={index}>
               {image.yoloOrRide === "욜로" &&
                 <figure>
-                  <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`Gallery image ${index + 1}`} />
-                  <figcaption>{image.localDateTime}</figcaption>
+                  <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`이미지 : ${image.imageUUID}`} />
+                  <figcaption>{new Date(image.localDateTime).toLocaleString()}</figcaption>
                 </figure>}
             </div>
           ))}
@@ -66,4 +63,5 @@ const Yolo = () => {
     </div>
   );
 }
+
 export default Yolo;
