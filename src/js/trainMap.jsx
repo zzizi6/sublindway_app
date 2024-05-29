@@ -70,7 +70,7 @@ function SubwayStatus(props) {
         const interval = setInterval(fetchTrainData, 30000); // 30초마다 데이터 새로고침
         return () => clearInterval(interval);
 
-    }, [trainNumber, updnLine]);
+    }, [trainNumber]);
 
 
 
