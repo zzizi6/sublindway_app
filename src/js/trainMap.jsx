@@ -8,13 +8,13 @@ import '../css/traininfo_user_v2.css';
 import '../css/LocationScreen.css';
 
 function SubwayStatus(props) {
-    const [subwayNm, setSubwayNm] = useState('');
-    const [statnId, setStatnId] = useState('');
-    const [updnLine, setUpdnLine] = useState('');
-    const [trainSttus, setTrainSttus] = useState('');
-    const [statnNm, setStatnNm] = useState('');
-    const [str, setStr] = useState('');
-    
+    const [subwayNm, setSubwayNm] = useState(null);
+    const [statnId, setStatnId] = useState(null);
+    const [updnLine, setUpdnLine] = useState(null);
+    const [trainSttus, setTrainSttus] = useState(null);
+    const [statnNm, setStatnNm] = useState(null);
+    const [str, setStr] = useState(null);
+
     const user = JSON.parse(sessionStorage.getItem('user'));
 
     const { trainNumber } = props;
@@ -71,7 +71,12 @@ function SubwayStatus(props) {
         const interval = setInterval(fetchTrainData, 30000); // 30초마다 데이터 새로고침
         return () => clearInterval(interval);
 
-    }, [trainSttus, updnLine, trainNumber]);
+    }, [trainNumber]);
+
+    // 데이터가 로드되지 않았을 때 로딩 스크린을 표시하거나 아무것도 렌더링하지 않음
+    if (!subwayNm || !statnId || !updnLine || !trainSttus || !statnNm) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <div>
