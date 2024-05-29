@@ -9,6 +9,7 @@ const LocationMap = (props) => {
   const mapRef = useRef(null);
   const markerRef = useRef(null);
   const navigate = useNavigate();
+  const effectRan = useRef(false); 
   const user = JSON.parse(sessionStorage.getItem('user'));
 
   const { onSetUserInfo, onSetTrainNumber } = props;
@@ -23,6 +24,7 @@ const LocationMap = (props) => {
 
   useEffect(() => {
     // kakaoId, userName 추출
+    if (effectRan.current) return; 
     let url = new URL(window.location.href).searchParams;
     const id = url.get("kakaoId");
     const userName = url.get("userName");
@@ -46,6 +48,8 @@ const LocationMap = (props) => {
       // 유저 정보가 없으면 로그인 페이지로 리디렉션
       navigate('/login');
     }
+
+    effectRan.current = true;
 
 
   }, [onSetUserInfo, user, navigate]);

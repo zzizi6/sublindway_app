@@ -3,12 +3,10 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 // CSS import
-import '../css/jquery-ui-1.11.1.css';
 import '../css/traininfo_user.css';
 import '../css/traininfo_user_v2.css';
 import '../css/traininfo_user_korail.css';
 import '../css/traininfo_user_korail_v2.css';
-import '../css/jquery.toast.min.css';
 import '../css/LocationScreen.css';
 
 function SubwayStatus(props) {
@@ -174,7 +172,7 @@ function SubwayStatus(props) {
 
                 {/* 열차추가-1 */}
                 <div className="1line_metro">
-                    <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                    <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                 </div>
             </div>
             }
@@ -223,7 +221,7 @@ function SubwayStatus(props) {
 
                     {/* 열차추가-2 */}
                     <div className="2line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                     </div>
                 </div>
             }
@@ -271,7 +269,7 @@ function SubwayStatus(props) {
 
                     {/* 열차추가-3 */}
                     <div className="3line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                     </div>
                 </div>
             }
@@ -334,7 +332,7 @@ function SubwayStatus(props) {
                     {/* 열차추가-4 */}
 
                     <div className="4line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                         {/* <img alt={`${user.trainNum}+열차+${statnNm}`} style={{ width: '38px', height: '29px', margin: '5.5px 1px' }} /> */}
                     </div>
                 </div>
@@ -399,7 +397,7 @@ function SubwayStatus(props) {
 
                     {/* 열차추가-5 */}
                     <div className="5line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                     </div>
                 </div>
             }
@@ -449,7 +447,7 @@ function SubwayStatus(props) {
 
                     {/* 열차추가-6 */}
                     <div className="6line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                     </div>
                 </div>
             }
@@ -513,7 +511,7 @@ function SubwayStatus(props) {
 
                     {/* 열차추가-7 */}
                     <div className="7line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                     </div>
                 </div>
             }
@@ -543,7 +541,7 @@ function SubwayStatus(props) {
 
                     {/* 열차추가-8 */}
                     <div className="8line_metro">
-                        <div className={str} title={`${trainNumber} ${statnNm}`} data-statntcd="0234" tabIndex="68" />
+                        <div className={str} title={`${trainNumber}열차 ${statnNm}`} data-statntcd="0234" tabIndex="68" />
                     </div>
                 </div>
             }
