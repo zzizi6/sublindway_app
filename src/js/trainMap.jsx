@@ -33,7 +33,6 @@ function SubwayStatus(props) {
                     setUpdnLine(response.data.updnLine);
                     setTrainSttus(response.data.trainSttus);
                     setStatnNm(response.data.statnNm);
-                    console.log (`statnId:${statnId} subwayNm:${subwayNm} undnLine:${updnLine} trainSttus:${trainSttus} statnNm:${statnNm}`)
 
                     let tempStr = '';
 
