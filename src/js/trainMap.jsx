@@ -45,6 +45,7 @@ function SubwayStatus(props) {
                             tempStr += updnLine === '0' ? '_1' : '_2';
                         } else { // 2호선 아닐때
                             tempStr += updnLine === '0' ? '_1' : '_2';
+                            console.log(`4호선 : ${updnLine}`);
                         }
 
                     } else {
