@@ -47,6 +47,7 @@ const Yolo = () => {
         </div>
       </div>
 
+      {/* 갤러리 */}
       <div className='gallery-container'>
         <div className='gallery'>
           {imageList.map((image, index) => (
