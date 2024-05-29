@@ -9,7 +9,7 @@ import '../css/traininfo_user_v2.css';
 import '../css/traininfo_user_korail.css';
 import '../css/traininfo_user_korail_v2.css';
 import '../css/jquery.toast.min.css';
-import '../css/Location.css';
+import '../css/LocationScreen.css';
 
 function SubwayStatus(props) {
     const [subwayNm, setSubwayNm] = useState('');

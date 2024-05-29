@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import KakaoMap from './kakaoMap';
-import '../css/Location.css';
+import '../css/LocationScreen.css';
 import '../css/traininfo_user.css';
 
 // 기본

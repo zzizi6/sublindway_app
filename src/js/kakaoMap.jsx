@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../css/Location.css';
+import '../css/LocationScreen.css';
 import '../css/traininfo_user.css';
 
 // 카카오 맵
