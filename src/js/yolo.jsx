@@ -3,14 +3,12 @@ import { useNavigate } from 'react-router-dom';
 
 import '../css/GalleryScreen.css';
 
-
 const Yolo = () => {
   const navigate = useNavigate();
   const [imageList, setImageList] = useState([]);
   const user = JSON.parse(sessionStorage.getItem('user'));
 
   useEffect(() => {
-
     // 이미지 fetch
     const fetchImages = async (userId) => {
       const apiUrl = `http://15.164.219.39:8079/find-image/by-kakaoId?kakaoId=${userId}`;

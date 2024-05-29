@@ -151,5 +151,4 @@ const fetchImageUrl = async (userId) => {
   }
 };
 
-
 export default KakaoMap;

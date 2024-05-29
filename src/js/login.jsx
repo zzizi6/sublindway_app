@@ -34,11 +34,9 @@ function Login() {
       <div className="login-form">
         <div style={{ fontFamily: 'Inter', fontWeight: 'bold', fontSize: '50px', color: '#20493C' }} >Green Boogie</div>
 
-        {/* 그린부기 설명창 - 수정필요 */}
+        {/* 그린부기 설명창 */}
         <div className="login-details" style={{ fontFamily: 'Inter', color: '#828282' }}>그린부기는 시각장애인과 비장애인이 지하철을 편리하고 안전하게 이용할 수 있도록 제작된 지하철 편의증진 앱, 웹 서비스입니다.</div>
-
-        {/* <img className="greenboogie-img" src="https://ifh.cc/g/G6v1Jz.png" alt="그린부기 설명 이미지" /> */}
-
+        
         {/* 소셜로그인 */}
         <div className="social-login" >
           <a id="kakao-login-btn" onClick={loginWithKakao}>

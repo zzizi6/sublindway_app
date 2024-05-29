@@ -5,8 +5,6 @@ import { useNavigate } from 'react-router-dom';
 // CSS import
 import '../css/traininfo_user.css';
 import '../css/traininfo_user_v2.css';
-import '../css/traininfo_user_korail.css';
-import '../css/traininfo_user_korail_v2.css';
 import '../css/LocationScreen.css';
 
 function SubwayStatus(props) {
@@ -20,8 +18,6 @@ function SubwayStatus(props) {
     const user = JSON.parse(sessionStorage.getItem('user'));
 
     const { trainNumber } = props;
-
-    // 유저 trainNumber 세팅
 
     useEffect(() => {
         const fetchTrainData = async () => {
@@ -623,7 +619,7 @@ const TrainMap = () => {
                     </div>
                     {/* 유저 승차x or 하차했을때 화면 (드래그 적용 x) */}
                     {isStopped && (<div style={{ display: 'flex', justifycontent: 'center', alignitems: 'center', height: '100vh' }}>
-                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
                     </div>)}
                 </div>
             </div>

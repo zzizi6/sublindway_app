@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import KakaoMap from './kakaoMap';
 import '../css/LocationScreen.css';
-import '../css/traininfo_user.css';
 
 // 기본
 const LocationMap = (props) => {
@@ -10,11 +9,11 @@ const LocationMap = (props) => {
   const markerRef = useRef(null);
   const navigate = useNavigate();
   const effectRan = useRef(false); 
+  const [kakaoId, setKakaoId] = useState('');
+  const [name, setName] = useState('');
   const user = JSON.parse(sessionStorage.getItem('user'));
 
   const { onSetUserInfo, onSetTrainNumber } = props;
-  const [kakaoId, setKakaoId] = useState('');
-  const [name, setName] = useState('');
 
   // 로그아웃
   const Logout = () => {
@@ -44,13 +43,13 @@ const LocationMap = (props) => {
       setName(user.userName);
       onSetUserInfo(user.userId, user.userName);
       console.log("아이디 : " + user.userId + " 이름 : " + user.userName);
+
     }else {
       // 유저 정보가 없으면 로그인 페이지로 리디렉션
       navigate('/login');
     }
 
     effectRan.current = true;
-
 
   }, [onSetUserInfo, user, navigate]);
 
