@@ -3,14 +3,12 @@ import { useNavigate } from 'react-router-dom';
 
 import '../css/GalleryScreen.css';
 
-
 const Riding = () => {
   const navigate = useNavigate();
   const [imageList, setImageList] = useState([]);
   const user = JSON.parse(sessionStorage.getItem('user'));
 
   useEffect(() => {
-
     // 이미지 fetch
     const fetchImages = async (userId) => {
       const apiUrl = `http://15.164.219.39:8079/find-image/by-kakaoId?kakaoId=${userId}`;
@@ -18,19 +16,16 @@ const Riding = () => {
       try {
         const response = await fetch(apiUrl);
         if (!response.ok) throw new Error('Failed to fetch image');
-        let tmp = await response.json()
-        // await JSON.parse(response);
-        setImageList(tmp);
-        console.log(imageList);
+        let tmp = await response.json();
 
         // 데이터가 배열인지 확인
         if (Array.isArray(tmp)) {
+          // 시간순으로 정렬 (오름차순)
+          tmp.sort((a, b) => new Date(a.localDateTime) - new Date(b.localDateTime));
           setImageList(tmp);
         } else {
           console.error('Fetched data is not an array:', tmp);
         }
-
-        // return `https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${imageUrl}`;
 
       } catch (error) {
         console.error('Error fetching image:', error);
@@ -40,7 +35,6 @@ const Riding = () => {
 
     fetchImages(user.userId);
   }, [user.userId]);
-
 
   return (
     <div className="container">
@@ -56,11 +50,11 @@ const Riding = () => {
       <div className='gallery-container'>
         <div className='gallery'>
           {imageList.map((image, index) => (
-            <div className='gallery' key={index} >
+            <div className='gallery' key={index}>
               {image.yoloOrRide === "탑승" &&
                 <figure>
                   <img src={`https://greenboogiebucket.s3.ap-northeast-2.amazonaws.com/${image.imageUUID}`} alt={`이미지 : ${image.imageUUID}`} />
-                  <figcaption>{image.localDateTime}</figcaption>
+                  <figcaption>{new Date(image.localDateTime).toLocaleString()}</figcaption>
                 </figure>}
             </div>
           ))}
@@ -69,4 +63,5 @@ const Riding = () => {
     </div>
   );
 }
+
 export default Riding;
