@@ -19,7 +19,7 @@ const KakaoMap = (props) => {
 
       // 승차인지 체크
       if (newMessage.trainNum !== '') {
-        console.log("탑승 위치 정보 :", newMessage.locationX, ",", newMessage.locationY);
+        console.log("탑승 위치 정보 :", newMessage.locationX, newMessage.locationY);
         onSetTrainNumber(newMessage.trainNum);
         console.log("탑승 열차 정보 :", newMessage.trainNum);
 
@@ -44,7 +44,7 @@ const KakaoMap = (props) => {
 
       // 하차인지 체크
       if (newMessage.trainNum === '') {
-        console.log("하차 위치 정보 :", newMessage.locationX, ",", newMessage.locationY);
+        console.log("하차 위치 정보 :", newMessage.locationX, newMessage.locationY);
         onSetTrainNumber('');
         console.log("열차 번호 ''으로 세팅");
 
@@ -80,13 +80,9 @@ const KakaoMap = (props) => {
 
 // 맵, 마커 업데이트
 const updateMarkerPosition = (mapRef, markerRef, newX, newY) => {
-
   const newPosition = new window.kakao.maps.LatLng(newX, newY);
   if (markerRef.current && mapRef.current) {
     markerRef.current.setPosition(newPosition);
-    // 교통정보 오버레이 재설정
-    mapRef.current.removeOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
-    mapRef.current.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
     mapRef.current.setCenter(newPosition);
   } else {
     console.error('Marker or Map ref is not initialized');
@@ -95,7 +91,6 @@ const updateMarkerPosition = (mapRef, markerRef, newX, newY) => {
 
 // 맵 초기화
 const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
-
   const container = document.getElementById('map');
   if (!container) {
     console.error('Map container not found');
@@ -107,19 +102,15 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
   };
 
   const map = new window.kakao.maps.Map(container, options);
-  // map.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
   mapRef.current = map;
 
-  // 마커 이미지 설정
-  var icon = new window.kakao.maps.MarkerImage(
+  const icon = new window.kakao.maps.MarkerImage(
     'https://ifh.cc/g/f8DjJl.png',
     new window.kakao.maps.Size(50, 70),
     {
-      offset: new window.kakao.maps.Point(50, 70),
-      alt: "마커 이미지 예제",
-      shape: "poly",
-      coords: "1,20,1,9,5,2,10,0,21,0,27,3,30,9,30,20,17,33,14,33"
-    })
+      offset: new window.kakao.maps.Point(25, 70),
+      alt: "마커 이미지 예제"
+    });
 
   const marker = new window.kakao.maps.Marker({ position: options.center, image: icon });
   marker.setMap(map);
