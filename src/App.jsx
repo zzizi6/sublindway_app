@@ -35,18 +35,18 @@ function App() {
     // LocationMap -> 아이디, 열차번호세팅
     // trainMap -> 아이디, 열차번호
 
-    <Router>
-      <Routes>
-        <GlobalStyles>
-        <Route path="/" element={<Login />} /> {/* /location 경로는 위치 페이지 */}
-        <Route path="/login" element={<Login />} /> {/* 기본 경로는 로그인 페이지 */}
-        <Route path="/locationMap" element={<LocationMap onSetUserInfo={setUserInfo} onSetTrainNumber={setTrainNumber} />} /> {/* /location 경로는 위치 페이지 */}
-        <Route path="/trainMap" element={<TrainMap />} />
-        <Route path="/riding" element={<Riding />}/>
-        <Route path="/yolo" element={<Yolo/>}/>
-        </GlobalStyles>
-      </Routes>
-    </Router>
+    <GlobalStyles>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} /> {/* /location 경로는 위치 페이지 */}
+          <Route path="/login" element={<Login />} /> {/* 기본 경로는 로그인 페이지 */}
+          <Route path="/locationMap" element={<LocationMap onSetUserInfo={setUserInfo} onSetTrainNumber={setTrainNumber} />} /> {/* /location 경로는 위치 페이지 */}
+          <Route path="/trainMap" element={<TrainMap />} />
+          <Route path="/riding" element={<Riding />} />
+          <Route path="/yolo" element={<Yolo />} />
+        </Routes>
+      </Router>
+    </GlobalStyles>
   );
 }
 
