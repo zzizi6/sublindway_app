@@ -84,6 +84,7 @@ const updateMarkerPosition = (mapRef, markerRef, newX, newY) => {
   if (markerRef.current && mapRef.current) {
     markerRef.current.setPosition(newPosition);
     mapRef.current.setCenter(newPosition);
+    mapRef.current.relayout();
   } else {
     console.error('Marker or Map ref is not initialized');
   }
@@ -108,6 +109,7 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
   setTimeout(() => {
     window.dispatchEvent(new Event('resize'));
     map.setCenter(new window.kakao.maps.LatLng(newX, newY));
+    map.relayout();
   }, 100);
 
   const icon = new window.kakao.maps.MarkerImage(
