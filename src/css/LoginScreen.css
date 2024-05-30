@@ -79,3 +79,34 @@ button:hover {
 .sign-up a:hover {
   text-decoration: underline;
 }
+
+
+/* 모바일 스타일 */
+@media (max-width: 600px) {
+  .login-form {
+    width: 90%; /* 모바일 화면에서는 너비를 90%로 설정 */
+    padding: 15px; /* 패딩을 줄여 모바일 화면에 맞춤 */
+  }
+
+  .login-details {
+    flex-direction: column; /* 모바일 화면에서는 세로 정렬 */
+    gap: 20px; /* 간격을 줄임 */
+    width: 100%;
+  }
+
+  .greenboogie-img {
+    max-width: 80px; /* 이미지 크기를 줄임 */
+    max-height: 100px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /* 모바일 화면에서는 입력 필드의 너비를 100%로 설정 */
+    padding: 8px; /* 패딩을 줄임 */
+  }
+
+  button {
+    width: 100%; /* 버튼 너비를 100%로 설정 */
+    padding: 8px; /* 패딩을 줄임 */
+  }
+}

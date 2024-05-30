@@ -6,7 +6,6 @@ import TrainMap from './js/trainMap'; // 열차 컴포넌트
 import Yolo from './js/yolo';
 import Riding from './js/riding';
 
-import GlobalStyles from './js/globalStyle';
 
 function App() {
   /* 세션 통해 데이터 세팅 */
@@ -35,8 +34,6 @@ function App() {
     // LocationMap -> 아이디, 열차번호세팅
     // trainMap -> 아이디, 열차번호
 
-    <>
-    <GlobalStyles/>
       <Router>
         <Routes>
           <Route path="/" element={<Login />} /> {/* /location 경로는 위치 페이지 */}
@@ -47,7 +44,7 @@ function App() {
           <Route path="/yolo" element={<Yolo />} />
         </Routes>
       </Router>
-      </>
+  
   );
 }
 

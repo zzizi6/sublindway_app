@@ -67,7 +67,7 @@ function SubwayStatus(props) {
         };
         fetchTrainData();
 
-        const interval = setInterval(fetchTrainData, 30000); // 30초마다 데이터 새로고침
+        const interval = setInterval(fetchTrainData, 10000); // 30초마다 데이터 새로고침
         return () => clearInterval(interval);
 
     }, [trainNumber]);
