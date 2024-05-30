@@ -67,7 +67,7 @@ function SubwayStatus(props) {
         };
         fetchTrainData();
 
-        const interval = setInterval(fetchTrainData, 10000); // 30초마다 데이터 새로고침
+        const interval = setInterval(fetchTrainData, 10000); // 10초마다 데이터 새로고침
         return () => clearInterval(interval);
 
     }, [trainNumber]);
@@ -560,7 +560,7 @@ const TrainMap = () => {
 
     useEffect(() => {
         if (trainNumber === '') setIsStopped(true);
-    }, [user, trainNumber])
+    }, [user, trainNumber]);
 
     const handleMouseDown = (e) => {
         setIsDragging(true);
@@ -571,7 +571,7 @@ const TrainMap = () => {
             x: e.clientX - left,
             y: e.clientY - top
         });
-        e.preventDefault(); // 브라우저 기본 드래그 동작 및 선택 방지
+        e.preventDefault();
     };
 
     const handleMouseMove = (e) => {
@@ -587,26 +587,55 @@ const TrainMap = () => {
         setIsDragging(false);
     };
 
+    const handleTouchStart = (e) => {
+        setIsDragging(true);
+        const mapStyles = window.getComputedStyle(trainMapRef.current);
+        const left = parseInt(mapStyles.left, 10);
+        const top = parseInt(mapStyles.top, 10);
+        setStartPos({
+            x: e.touches[0].clientX - left,
+            y: e.touches[0].clientY - top
+        });
+        e.preventDefault();
+    };
+
+    const handleTouchMove = (e) => {
+        if (isDragging) {
+            const x = e.touches[0].clientX - startPos.x;
+            const y = e.touches[0].clientY - startPos.y;
+            trainMapRef.current.style.left = `${x}px`;
+            trainMapRef.current.style.top = `${y}px`;
+        }
+    };
+
+    const handleTouchEnd = () => {
+        setIsDragging(false);
+    };
+
     useEffect(() => {
         const trainMap = trainMapRef.current;
         trainMap.addEventListener('mousedown', handleMouseDown);
-        // 이벤트 리스너를 등록합니다.
         window.addEventListener('mousemove', handleMouseMove);
         window.addEventListener('mouseup', handleMouseUp);
+        
+        trainMap.addEventListener('touchstart', handleTouchStart);
+        window.addEventListener('touchmove', handleTouchMove);
+        window.addEventListener('touchend', handleTouchEnd);
 
         return () => {
-            // Cleanup function에서 이벤트 리스너를 제거합니다.
             trainMap.removeEventListener('mousedown', handleMouseDown);
             window.removeEventListener('mousemove', handleMouseMove);
             window.removeEventListener('mouseup', handleMouseUp);
+            
+            trainMap.removeEventListener('touchstart', handleTouchStart);
+            window.removeEventListener('touchmove', handleTouchMove);
+            window.removeEventListener('touchend', handleTouchEnd);
         };
-
-    }, [isDragging, startPos]); // 의존성 배열에 isDragging과 startPos 추가
+    }, [isDragging, startPos]);
 
     return (
         <div>
             <div>
-                {/* 메뉴 */}
                 <div className="menu-container">
                     <div className="menu-screen">
                         <h1 className="menu-title" style={{ fontFamily: 'IBM Plex Sans KR, sans-serif' }}>GreenBoogie</h1>
@@ -617,12 +646,10 @@ const TrainMap = () => {
 
                 <div id="traininfo-contents">
                     <div ref={trainMapRef} id="trainMap" style={{ position: 'relative', overflow: 'hidden', left: 0, top: 0 }}>
-                        {/* 노선표시화면 (유저가 하차하면 !isStopped가 false가 되어 실행 x) */}
                         {!isStopped && (<SubwayStatus trainNumber={trainNumber}></SubwayStatus>)}
                     </div>
-                    {/* 유저 승차x or 하차했을때 화면 (드래그 적용 x) */}
-                    {isStopped && (<div style={{ display: 'flex', justifycontent: 'center', alignitems: 'center', height: '100vh' }}>
-                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
+                    {isStopped && (<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
                     </div>)}
                 </div>
             </div>
