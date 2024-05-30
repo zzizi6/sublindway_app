@@ -2,59 +2,68 @@ import React, { useEffect, useRef } from 'react';
 import '../css/LocationScreen.css';
 import '../css/traininfo_user.css';
 
+// 카카오 맵
 const KakaoMap = (props) => {
   const isFirstMessage = useRef(true);
   const { onSetTrainNumber, userId = "Default UserId", userName = "Default UserName", mapRef, markerRef } = props;
 
   useEffect(() => {
+
     // 서버에서 이벤트 스트림을 구독. (1) 승차 (2) 하차
     const eventSource1 = new EventSource(`http://15.164.219.39:8079/stream/${userId}`);
     const eventSource2 = new EventSource(`http://15.164.219.39:8079/stream/subway/${userId}`);
 
+    // (1) 승차 - message 이벤트가 발생할 때마다 데이터 업데이트
     eventSource1.onmessage = event1 => {
       const newMessage = JSON.parse(event1.data);
 
+      // 승차인지 체크
       if (newMessage.trainNum !== '') {
         console.log("탑승 위치 정보 :", newMessage.locationX, ",", newMessage.locationY);
         onSetTrainNumber(newMessage.trainNum);
         console.log("탑승 열차 정보 :", newMessage.trainNum);
 
-        if (isFirstMessage.current) {
+        if (isFirstMessage.current) { // 처음 메시지 수신 시 맵 초기화
           initializeMap(userId, mapRef, markerRef, newMessage.locationX, newMessage.locationY);
-          isFirstMessage.current = false;
-        } else {
+          isFirstMessage.current = false; // 첫 메시지 처리 후 플래그 변경
+        } else { // 두 번째 메시지 수신 시 맵 업데이트
           updateMarkerPosition(mapRef, markerRef, newMessage.locationX, newMessage.locationY);
         }
       }
     };
 
+    // 에러 처리
     eventSource1.onerror = error => {
       console.error('EventSource failed:', error);
       eventSource1.close();
     };
 
+    // (2) 하차 - message 이벤트가 발생할 때마다 데이터 업데이트
     eventSource2.onmessage = event2 => {
       const newMessage = JSON.parse(event2.data);
 
+      // 하차인지 체크
       if (newMessage.trainNum === '') {
         console.log("하차 위치 정보 :", newMessage.locationX, ",", newMessage.locationY);
         onSetTrainNumber('');
         console.log("열차 번호 ''으로 세팅");
 
-        if (isFirstMessage.current) {
+        if (isFirstMessage.current) { // 처음 메시지 수신 시 맵 초기화
           initializeMap(userId, mapRef, markerRef, newMessage.locationX, newMessage.locationY);
-          isFirstMessage.current = false;
-        } else {
+          isFirstMessage.current = false; // 첫 메시지 처리 후 플래그 변경
+        } else { // 두 번째 메시지 수신 시 맵 업데이트
           updateMarkerPosition(mapRef, markerRef, newMessage.locationX, newMessage.locationY);
         }
       }
     };
 
+    // 에러 처리
     eventSource2.onerror = error => {
       console.error('EventSource2 failed:', error);
       eventSource2.close();
     };
 
+    // 윈도우 리사이즈 이벤트 추가
     const handleResize = () => {
       if (mapRef.current) {
         mapRef.current.relayout();
@@ -64,11 +73,13 @@ const KakaoMap = (props) => {
 
     window.addEventListener('resize', handleResize);
 
+    // 컴포넌트 언마운트 시 EventSource2 연결 종료
     return () => {
       eventSource1.close();
       eventSource2.close();
       window.removeEventListener('resize', handleResize);
     };
+
   }, [userId, mapRef, markerRef, userName, onSetTrainNumber]);
 
   return (
@@ -78,10 +89,13 @@ const KakaoMap = (props) => {
   );
 };
 
+// 맵, 마커 업데이트
 const updateMarkerPosition = (mapRef, markerRef, newX, newY) => {
+
   const newPosition = new window.kakao.maps.LatLng(newX, newY);
   if (markerRef.current && mapRef.current) {
     markerRef.current.setPosition(newPosition);
+    // 교통정보 오버레이 재설정
     mapRef.current.removeOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
     mapRef.current.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
     mapRef.current.setCenter(newPosition);
@@ -90,7 +104,9 @@ const updateMarkerPosition = (mapRef, markerRef, newX, newY) => {
   }
 };
 
+// 맵 초기화
 const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
+
   const container = document.getElementById('map');
   if (!container) {
     console.error('Map container not found');
@@ -102,8 +118,10 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
   };
 
   const map = new window.kakao.maps.Map(container, options);
+  // map.addOverlayMapTypeId(window.kakao.maps.MapTypeId.TRAFFIC);
   mapRef.current = map;
 
+  // 마커 이미지 설정
   var icon = new window.kakao.maps.MarkerImage(
     'https://ifh.cc/g/f8DjJl.png',
     new window.kakao.maps.Size(50, 70),
@@ -130,6 +148,7 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
   });
 };
 
+// 이미지 fetch
 const fetchImageUrl = async (userId) => {
   const apiUrl = `http://15.164.219.39:8079/find-image-uuid?kakaoId=${userId}`;
   try {
