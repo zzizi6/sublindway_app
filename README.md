@@ -2,6 +2,9 @@
  </h1>  </div>
 
 
+## 개발 환경
+- ![Windows](https://img.shields.io/badge/OS-Windows-blue)
+- ![macOS](https://img.shields.io/badge/OS-macOS-lightgrey)
 
 ## 개발 도구
 - ![VSCode](https://img.shields.io/badge/IDE-VSCode-blue)
