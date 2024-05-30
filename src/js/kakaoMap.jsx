@@ -104,6 +104,12 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
   const map = new window.kakao.maps.Map(container, options);
   mapRef.current = map;
 
+  // 강제로 지도의 크기 재설정
+  setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+    map.setCenter(new window.kakao.maps.LatLng(newX, newY));
+  }, 100);
+
   const icon = new window.kakao.maps.MarkerImage(
     'https://ifh.cc/g/f8DjJl.png',
     new window.kakao.maps.Size(50, 70),
@@ -127,6 +133,7 @@ const initializeMap = (userId, mapRef, markerRef, newX, newY) => {
     }
   });
 };
+
 
 // 이미지 fetch
 const fetchImageUrl = async (userId) => {
