@@ -3,7 +3,7 @@
 
 
 
-## 개발 환경
+## 개발 도구
 - ![VSCode](https://img.shields.io/badge/IDE-VSCode-blue)
  
 ## 서버
