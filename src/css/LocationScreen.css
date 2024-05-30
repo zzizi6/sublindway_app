@@ -121,5 +121,9 @@
 
   .map-container #map {
     height: 100%;
+    position: absolute; /* 추가: 맵이 컨테이너에 맞게 배치되도록 설정 */
+    width: 100%;
+    top: 0;
+    left: 0;
   }
 }
