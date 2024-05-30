@@ -12,6 +12,5 @@
 ## 서버
 - ![AWS EC2](https://img.shields.io/badge/Server-AWS%20EC2-important)
 
-
 ## 개발 언어
 - ![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
