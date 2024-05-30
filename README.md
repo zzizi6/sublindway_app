@@ -21,4 +21,6 @@
 ## 서버
 - ![AWS EC2](https://img.shields.io/badge/Server-AWS%20EC2-important)
 
+## 프록시
+- ![Nginx](https://img.shields.io/badge/Server-Nginx-brightgreen)
 
