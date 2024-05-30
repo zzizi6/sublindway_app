@@ -35,7 +35,8 @@ function App() {
     // LocationMap -> 아이디, 열차번호세팅
     // trainMap -> 아이디, 열차번호
 
-    <GlobalStyles>
+    <>
+    <GlobalStyles/>
       <Router>
         <Routes>
           <Route path="/" element={<Login />} /> {/* /location 경로는 위치 페이지 */}
@@ -46,7 +47,7 @@ function App() {
           <Route path="/yolo" element={<Yolo />} />
         </Routes>
       </Router>
-    </GlobalStyles>
+      </>
   );
 }
 
