@@ -649,7 +649,7 @@ const TrainMap = () => {
                         {!isStopped && (<SubwayStatus trainNumber={trainNumber}></SubwayStatus>)}
                     </div>
                     {isStopped && (<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans KR, sans-serif', color: 'green', textAlign: 'center' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사용자가 탑승을 하지 않았거나 이미 하차한 상태입니다.</div>
                     </div>)}
                 </div>
             </div>
