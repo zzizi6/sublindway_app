@@ -8,8 +8,6 @@
 - 유저의 승차사진과 객체인식사진을 각 탭에 저장
 - 반응형 웹 구현을 통해 웹 뿐만 아니라 모바일에서도 확인 가능
 
-## 
-
 ## 개발 환경
 - ![Windows](https://img.shields.io/badge/OS-Windows-blue)
 - ![macOS](https://img.shields.io/badge/OS-macOS-lightgrey)
