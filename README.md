@@ -1,5 +1,5 @@
 <div align = "center"> <h1> GreenBoogie 웹, 모바일 <img width="25" alt="greenboogieboogie" src="https://github.com/zzizi6/sublindway_A/assets/103871252/1261bc77-4362-42be-ab6f-c132f0e4b9bc">
- </h1> 하이루 방가방가 </div>
+ </h1> 하이루 방가방가 공주의 깃입니다 </div>
 
 ## 설명
 - 유저의 접근성을 고려하여 카카오 간편 로그인 구현
